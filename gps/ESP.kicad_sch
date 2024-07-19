@@ -703,20 +703,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U4"
-				(at 0 30.48 0)
+			(property "Reference" "U"
+				(at -12.7 26.162 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "DFR0654"
-				(at 0 27.94 0)
+				(at -12.7 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" "DFR0654:MODULE_DFR0654"
@@ -1441,6 +1443,46 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DFR0654_1_0"
+				(pin power_in line
+					(at 17.78 -22.86 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DFR0654_1_1"
+				(pin power_in line
+					(at 17.78 17.78 180)
+					(length 5.08)
+					(name "VUSB"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
@@ -3560,84 +3602,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 115.57 27.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46e3023f-8035-4708-91f0-88214c9723ed")
-		(property "Reference" "#PWR046"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d8237d1-e057-4cd3-9112-934fcc96ae60")
-		)
-		(instances
-			(project "gps"
-				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/2d592f67-4c05-4d6d-98b6-6efe4fa6f706"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5C")
-		(at 115.57 25.4 90)
+		(at 138.43 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4aa5f84e-2635-446a-a98b-aaf58f5bad92")
+		(uuid "462d7b7b-17cf-4e99-86ea-563c51eeb6d4")
 		(property "Reference" "#PWR01"
-			(at 119.38 25.4 0)
+			(at 134.62 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +3621,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 111.76 25.3999 90)
+			(at 142.24 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 25.4 0)
+			(at 138.43 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 25.4 0)
+			(at 138.43 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +3648,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5C\""
-			(at 115.57 25.4 0)
+			(at 138.43 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3682,10 +3657,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "be93cf87-3437-4a8a-929c-89e56df259e3")
+			(uuid "22e5c58e-e4a6-4c81-8ebd-3539ff27ab72")
 		)
 		(instances
-			(project ""
+			(project "gps"
 				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/2d592f67-4c05-4d6d-98b6-6efe4fa6f706"
 					(reference "#PWR01")
 					(unit 1)
@@ -3695,7 +3670,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 81.28 0)
+		(at 41.91 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3704,7 +3679,7 @@
 		(fields_autoplaced yes)
 		(uuid "509ad72e-8bc2-49e6-84f4-e3d02ae43d40")
 		(property "Reference" "#PWR032"
-			(at 41.91 87.63 0)
+			(at 48.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,11 +3688,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 86.36 0)
+			(at 45.72 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4263,6 +4239,16 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "\nESP32 ESP32-E Transceiver; 802.11 b/g/n/d/e/i/k/r (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) 2.4GHz ~ 2.5GHz Evaluation Board\n"
+			(at 120.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe2910b6-dbe7-40a2-bdaf-81379137fab6")
 		)
@@ -4358,6 +4344,12 @@
 		)
 		(pin "9"
 			(uuid "b4544735-eaa9-47fc-9f21-c3cc3735952f")
+		)
+		(pin "33"
+			(uuid "cb4cc9de-9c02-4239-a315-6ba8365b510e")
+		)
+		(pin "34"
+			(uuid "c2b2a2b4-589d-477a-829e-2f1a03dd7cd0")
 		)
 		(instances
 			(project ""
@@ -4637,76 +4629,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 120.65 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b84dd976-a41e-49aa-8adb-51d61d1862c3")
-		(property "Reference" "J9"
-			(at 123.19 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 123.19 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 120.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 120.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5485ea8a-75f0-45b7-9c61-efa388a5c211")
-		)
-		(pin "2"
-			(uuid "44ca0809-6206-4380-90ea-02c6b6233939")
-		)
-		(instances
-			(project ""
-				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/2d592f67-4c05-4d6d-98b6-6efe4fa6f706"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5C")
 		(at 115.57 31.75 90)
 		(unit 1)
@@ -4775,7 +4697,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 99.06 0)
+		(at 41.91 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4784,7 +4706,7 @@
 		(fields_autoplaced yes)
 		(uuid "be43c6e0-b38a-4a87-8df1-a4b1bcf5fd22")
 		(property "Reference" "#PWR034"
-			(at 41.91 105.41 0)
+			(at 48.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,11 +4715,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 104.14 0)
+			(at 45.72 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""

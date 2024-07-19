@@ -1848,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 74.93) (xy 116.84 74.93)
+			(xy 100.33 74.93) (xy 116.84 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2038,7 +2038,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 101.6 85.09)
+			(xy 100.33 85.09) (xy 101.6 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2198,7 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 77.47) (xy 123.19 77.47)
+			(xy 100.33 77.47) (xy 123.19 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2358,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 82.55) (xy 104.14 82.55)
+			(xy 100.33 82.55) (xy 104.14 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2398,7 +2398,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 80.01) (xy 110.49 80.01)
+			(xy 100.33 80.01) (xy 110.49 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2408,7 +2408,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 90.17 80.01 180)
+		(at 100.33 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2418,7 +2418,7 @@
 		)
 		(uuid "a8333210-59de-4529-9517-fa91276e5830")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.2493 79.9306 0)
+			(at 94.4093 79.9306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2430,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 90.17 82.55 180)
+		(at 100.33 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2440,7 +2440,7 @@
 		)
 		(uuid "b0657d89-e49e-45a4-8806-a9e006d55e91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.1888 82.4706 0)
+			(at 94.3488 82.4706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2452,7 @@
 	)
 	(global_label "SQW"
 		(shape input)
-		(at 90.17 77.47 180)
+		(at 100.33 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2462,7 +2462,7 @@
 		)
 		(uuid "e43059b9-eac4-46a3-ba62-ed2ce2a051f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.1934 77.47 0)
+			(at 93.3534 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2474,7 @@
 	)
 	(global_label "32kHz"
 		(shape input)
-		(at 90.17 74.93 180)
+		(at 100.33 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2484,7 +2484,7 @@
 		)
 		(uuid "ea15c084-4892-4823-91ac-1e785f75f884")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.9512 74.8506 0)
+			(at 92.1112 74.8506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +3876,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 90.17 85.09 90)
+		(at 100.33 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3885,7 +3885,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc91b7b2-e20f-4797-b1d4-f364284313c8")
 		(property "Reference" "#PWR047"
-			(at 93.98 85.09 0)
+			(at 104.14 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3894,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 86.36 85.0899 90)
+			(at 96.52 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 85.09 0)
+			(at 100.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 85.09 0)
+			(at 100.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +3921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 90.17 85.09 0)
+			(at 100.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

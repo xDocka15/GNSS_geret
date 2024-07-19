@@ -1,4 +1,4 @@
-23760322542381411
+23760322873486895
 7seg_rgb
 7seg_1x1_rgb
 
@@ -54667,8 +54667,8 @@ MODULE_DFR0654
 
 
 0
-32
-32
+34
+34
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
