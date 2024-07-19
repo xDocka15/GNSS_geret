@@ -4636,7 +4636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:CA56-12CGKWA"
+		(property "Footprint" "7seg_rgb:7seg_4x1"
 			(at 128.27 114.3 0)
 			(effects
 				(font
