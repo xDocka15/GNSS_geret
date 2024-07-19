@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "w_conn_rf")(type "KiCad")(uri "${KIPRJMOD}/w_conn_rf.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/10118192-0001LF/Library.pretty")(options "")(descr ""))
+  (lib (name "7seg_rgb")(type "KiCad")(uri "${KIPRJMOD}/footprints/7seg_rgb.pretty")(options "")(descr ""))
+  (lib (name "DFR0654")(type "KiCad")(uri "${KIPRJMOD}/footprints/DFR0654.pretty")(options "")(descr ""))
+  (lib (name "HT16K33")(type "KiCad")(uri "${KIPRJMOD}/footprints/HT16K33.pretty")(options "")(descr ""))
+)
