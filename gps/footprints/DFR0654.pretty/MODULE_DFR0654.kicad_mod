@@ -1381,39 +1381,6 @@
 		)
 		(uuid "7e7ccf73-c3ff-46d1-aaec-e8f66a69283c")
 	)
-	(dimension
-		(type aligned)
-		(layer "User.1")
-		(uuid "adc1879e-3e93-45a7-af6a-52cebdc69080")
-		(pts
-			(xy -12.7 -30) (xy 12.7 -30)
-		)
-		(height -7)
-		(gr_text "25.4000 mm"
-			(at 0 -38.15 0)
-			(layer "User.1")
-			(uuid "adc1879e-3e93-45a7-af6a-52cebdc69080")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.12)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
 	(pad "" np_thru_hole circle
 		(at -11.1 -28.4)
 		(size 2 2)
