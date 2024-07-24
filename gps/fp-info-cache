@@ -1,4 +1,4 @@
-23762045243140702
+23767210583622880
 7seg_rgb
 7seg_1x1_rgb
 
@@ -13,6 +13,13 @@
 0
 12
 12
+1769
+1769
+1769
+Connector
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1679,6 +1686,13 @@ SWITCH SMD KSA SW
 0
 5
 5
+Button_Switch_THT
+MSN22AFW01
+
+
+0
+7
+3
 Button_Switch_THT
 Nidec_Copal_SH-7010C
 4-bit rotary coded switch, through-hole, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
@@ -54667,8 +54681,8 @@ DFR0654_2
 
 
 0
-29
-29
+30
+30
 DFR0654
 MODULE_DFR0654
 
@@ -56587,6 +56601,13 @@ http://optoelectronics.liteon.com/upload/download/DS30-2001-393/C4627JG.pdf
 0
 14
 14
+Display_7Segment
+LTC4724JF
+LTC-4724JF-6
+Display
+0
+12
+12
 Display_7Segment
 MAN71A
 https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
