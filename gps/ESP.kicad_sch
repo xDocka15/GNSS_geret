@@ -5808,7 +5808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles"
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_20mm_WO_mount_holes"
 			(at 44.45 41.656 0)
 			(effects
 				(font

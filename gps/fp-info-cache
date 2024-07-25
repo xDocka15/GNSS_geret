@@ -1,4 +1,4 @@
-23767210583622880
+23768932505055985
 7seg_rgb
 7seg_1x1_rgb
 
@@ -88794,6 +88794,13 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
+Rotary_Encoder
+RotaryEncoder_20mm_WO_mount_holes
+
+
+0
+5
+5
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html

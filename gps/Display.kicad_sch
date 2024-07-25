@@ -2397,6 +2397,11 @@
 			)
 		)
 	)
+	(bus_alias "7Seg"
+		(members "a" "b" "c" "d" "e" "f" "g" "DPX" "CA1" "CA2" "CA3" "CA4" "CC1"
+			"CC2" "CC3" "L123" "aE" "aD" "aDP" "aCL3" "aF" "aAL1" "aBL2" "aG"
+		)
+	)
 	(junction
 		(at 74.93 85.09)
 		(diameter 0)
@@ -4128,17 +4133,6 @@
 		)
 		(uuid "10e7b7f3-99d8-4618-930f-bda9d23f89f0")
 	)
-	(label "aAL1"
-		(at 92.71 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "130f7a25-3be7-43c4-9dd7-30202cf17fd4")
-	)
 	(label "c"
 		(at 77.47 101.6 0)
 		(fields_autoplaced yes)
@@ -4149,6 +4143,17 @@
 			(justify left bottom)
 		)
 		(uuid "2b07c125-8387-484e-87d2-4c48e6f5b258")
+	)
+	(label "{7Seg}"
+		(at 82.55 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cc9353d-cc64-4f3c-991a-f14caffd7828")
 	)
 	(label "CA1"
 		(at 144.78 106.68 0)
@@ -4194,6 +4199,17 @@
 		)
 		(uuid "46400d29-4dcb-4e3d-ad41-16555e1434e0")
 	)
+	(label "aAL1"
+		(at 92.71 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4884879d-8a6a-41dc-9b70-f7b523c28725")
+	)
 	(label "CA3"
 		(at 134.62 59.69 0)
 		(fields_autoplaced yes)
@@ -4216,17 +4232,6 @@
 		)
 		(uuid "52d0b35a-b18c-4a2a-8fa0-eafaae5bf892")
 	)
-	(label "aBL2"
-		(at 92.71 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53c1df15-04b3-4869-95f9-f9beaa0c27e0")
-	)
 	(label "aD"
 		(at 135.89 69.85 0)
 		(fields_autoplaced yes)
@@ -4237,17 +4242,6 @@
 			(justify left bottom)
 		)
 		(uuid "58549c95-aafd-47bd-a343-3f80860c8f8e")
-	)
-	(label "{a b c d e f g DPX CA1 CA2 CA3 CA4 CC1 CC2 CC3 L123 aE aD aDP aCL3 aF aAL1 aBL2 aG }"
-		(at 74.93 95.25 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e9abcbd-5e54-45e9-850b-c23986f13ca6")
 	)
 	(label "DPX"
 		(at 77.47 114.3 0)
@@ -4380,6 +4374,17 @@
 			(justify left bottom)
 		)
 		(uuid "9ea064c6-c836-468a-a091-a32986791029")
+	)
+	(label "aBL2"
+		(at 92.71 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9eb3bf2f-2cb0-41a1-9822-370d8735f6c4")
 	)
 	(label "aDP"
 		(at 160.02 109.22 0)
