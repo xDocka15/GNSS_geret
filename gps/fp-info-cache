@@ -1,4 +1,4 @@
-23768932505055985
+23770655737835407
 7seg_rgb
 7seg_1x1_rgb
 
@@ -54681,8 +54681,8 @@ DFR0654_2
 
 
 0
-30
-30
+28
+28
 DFR0654
 MODULE_DFR0654
 
@@ -63503,6 +63503,13 @@ solder jumper open
 0
 5
 3
+KiCad
+USB3145301A
+USB3145-30-1-A
+Connector
+0
+7
+7
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf

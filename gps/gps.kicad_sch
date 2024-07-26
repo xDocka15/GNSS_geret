@@ -5604,7 +5604,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT_x2"
+		(property "Value" "MSN22AFW01"
 			(at 35.56 104.14 0)
 			(effects
 				(font

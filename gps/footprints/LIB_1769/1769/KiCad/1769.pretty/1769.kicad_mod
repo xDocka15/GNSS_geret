@@ -201,7 +201,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "99748057-0e95-4b66-829d-7760a4f13900")
 	)
-	(model "1769.stp"
+	(model "${KIPRJMOD}/footprints/LIB_1769/1769/3D/1769.stp"
 		(offset
 			(xyz 0 -7.070000065 0)
 		)

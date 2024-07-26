@@ -293,15 +293,15 @@
 		(remove_unused_layers no)
 		(uuid "2268d1d9-6da4-4e83-b01f-c7ff37dd2c64")
 	)
-	(model "${KIPRJMOD}/3d_indicators/walter/indicators.3dshapes/7segdisp_sa05.wrl"
+	(model "${KIPRJMOD}/3D/RGB-7seg.step"
 		(offset
-			(xyz 0 -0.9 0)
+			(xyz -12 -14.6 10)
 		)
 		(scale
-			(xyz 1.6 1.45 2.5)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 0 0)
 		)
 	)
 )
