@@ -513,4 +513,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "36bd22b9-c191-4921-aea8-bf09121754ef")
 	)
+	(model "${KIPRJMOD}/3D/DFR0654--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz -0.25 1.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
