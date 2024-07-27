@@ -5422,7 +5422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.email.cz/download/k/aFpCuGwORJ2F53L1UW7N3dtw5Pq_1fnM7h9J2ESP6uH93kRab_i92pVonzIhdCs-nIC3Sgg/RGBDigit_datasheet_V4-9-4-17.pdf"
+		(property "Datasheet" "https://rgbdigit.com/Documents/RGBDigit_datasheet_V4-9-4-17.pdf"
 			(at 54.61 152.4 0)
 			(effects
 				(font
@@ -5631,7 +5631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.email.cz/download/k/aFpCuGwORJ2F53L1UW7N3dtw5Pq_1fnM7h9J2ESP6uH93kRab_i92pVonzIhdCs-nIC3Sgg/RGBDigit_datasheet_V4-9-4-17.pdf"
+		(property "Datasheet" "https://rgbdigit.com/Documents/RGBDigit_datasheet_V4-9-4-17.pdf"
 			(at 73.66 152.4 0)
 			(effects
 				(font
@@ -5904,7 +5904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.email.cz/download/k/aFpCuGwORJ2F53L1UW7N3dtw5Pq_1fnM7h9J2ESP6uH93kRab_i92pVonzIhdCs-nIC3Sgg/RGBDigit_datasheet_V4-9-4-17.pdf"
+		(property "Datasheet" "https://rgbdigit.com/Documents/RGBDigit_datasheet_V4-9-4-17.pdf"
 			(at 93.98 152.4 0)
 			(effects
 				(font
