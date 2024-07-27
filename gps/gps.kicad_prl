@@ -1,10 +1,24 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 36,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "GND",
+      "+3V3",
+      "CLK",
+      "DT",
+      "SW_BATT",
+      "SW",
+      "VCC",
+      "SW_ESP",
+      "SCL_3V3",
+      "SDA_3V3",
+      "SDA_5V",
+      "SCL_5V",
+      "RGB_3V3"
+    ],
     "high_contrast_mode": 1,
     "net_color_mode": 2,
     "opacity": {
