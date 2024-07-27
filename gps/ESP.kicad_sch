@@ -4412,7 +4412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wiki.dfrobot.com/FireBeetle_Board_ESP32_E_SKU_DFR0654"
 			(at 120.65 95.25 0)
 			(effects
 				(font

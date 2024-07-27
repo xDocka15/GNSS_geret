@@ -5126,7 +5126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/ht16K33v110.pdf"
 			(at 115.57 68.58 0)
 			(effects
 				(font
@@ -5422,7 +5422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.email.cz/download/k/aFpCuGwORJ2F53L1UW7N3dtw5Pq_1fnM7h9J2ESP6uH93kRab_i92pVonzIhdCs-nIC3Sgg/RGBDigit_datasheet_V4-9-4-17.pdf"
 			(at 54.61 152.4 0)
 			(effects
 				(font
@@ -5631,7 +5631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.email.cz/download/k/aFpCuGwORJ2F53L1UW7N3dtw5Pq_1fnM7h9J2ESP6uH93kRab_i92pVonzIhdCs-nIC3Sgg/RGBDigit_datasheet_V4-9-4-17.pdf"
 			(at 73.66 152.4 0)
 			(effects
 				(font
@@ -5904,7 +5904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.email.cz/download/k/aFpCuGwORJ2F53L1UW7N3dtw5Pq_1fnM7h9J2ESP6uH93kRab_i92pVonzIhdCs-nIC3Sgg/RGBDigit_datasheet_V4-9-4-17.pdf"
 			(at 93.98 152.4 0)
 			(effects
 				(font
@@ -5977,7 +5977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.email.cz/download/k/PvZHjCvBn5gaqv_DUIQZsTekGK5Ux3w7xvJvVsbswz-NUu2ZO5TJBOk88wZ1SH8SMFQLHrw/kw4-804xgb.pdf"
 			(at 105.918 103.378 0)
 			(effects
 				(font
