@@ -261,6 +261,20 @@
 		(layer "F.Fab")
 		(uuid "25991bb8-f632-4a39-a3fa-d1a519122231")
 	)
+	(pad "" np_thru_hole circle
+		(at -11.35 -29.65)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "420b2b3e-c459-4e79-aba9-a655a0f42387")
+	)
+	(pad "" np_thru_hole circle
+		(at 10.85 27.15)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "35051a45-d9e7-4337-9a8e-2f05706a1452")
+	)
 	(pad "1" thru_hole rect
 		(at -11.5 -19.93)
 		(size 1.8 1.8)
