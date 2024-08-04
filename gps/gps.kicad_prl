@@ -5,10 +5,10 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "GND",
       "+3V3",
       "CLK",
       "DT",
+      "PULSE",
       "SW_BATT",
       "SW",
       "VCC",
@@ -17,7 +17,8 @@
       "SDA_3V3",
       "SDA_5V",
       "SCL_5V",
-      "RGB_3V3"
+      "RGB_3V3",
+      "RGB_5V"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 2,
@@ -78,7 +79,7 @@
       35,
       36
     ],
-    "visible_layers": "817ffff_ffffffff",
+    "visible_layers": "8141f30_ffffffff",
     "zone_display_mode": 0
   },
   "git": {

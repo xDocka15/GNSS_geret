@@ -443,7 +443,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -771,15 +771,11 @@
     ],
     [
       "2d592f67-4c05-4d6d-98b6-6efe4fa6f706",
-      "ESP"
+      "GNSS"
     ],
     [
       "944a09ba-484a-42c8-9e47-79436575a39f",
       "Display"
-    ],
-    [
-      "3e53a188-5a8a-4d97-8591-11bad0d07130",
-      "RTC"
     ]
   ],
   "text_variables": {}
