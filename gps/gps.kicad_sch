@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "00526ddc-5304-4072-af1e-192a9e7e83da")
 	(paper "A4")
+	(title_block
+		(title "GNSS_Geret")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
