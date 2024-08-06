@@ -4130,7 +4130,7 @@
 			(uuid "7e71668e-4667-47af-920e-e127c96c0501")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.775 10.18 180)
+			(at 0 1.85 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c6aaf94b-714e-4b9d-9d9b-31b7e72b8e44")
@@ -6760,7 +6760,7 @@
 			(uuid "6ad042b8-0f8c-4cad-805e-a1197e3560b0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -7.62 90)
+			(at 3.84993 -7.62 90)
 			(layer "B.Fab")
 			(uuid "9ed36c80-10e8-4e32-8a13-5e205f93f96a")
 			(effects
@@ -7098,7 +7098,7 @@
 			)
 		)
 		(property "Value" "SN74LV1T34DBVRG4"
-			(at 0 -2.4 0)
+			(at 0.03 -9.26 90)
 			(layer "B.Fab")
 			(uuid "7d2cb584-841d-42c4-9688-70a10d4b34f2")
 			(effects
@@ -7600,7 +7600,7 @@
 			(uuid "2e72ce31-0b0d-48ea-a769-5b777c7d981e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -3.81 0)
+			(at 3.73 -3.92 0)
 			(layer "B.Fab")
 			(uuid "702e7f42-efdf-4fde-ac6f-b3836d7161aa")
 			(effects
@@ -8681,7 +8681,7 @@
 			)
 		)
 		(property "Value" "Jumper_MOSI"
-			(at -6.28 0.03 0)
+			(at -0.1 1.75 0)
 			(layer "B.Fab")
 			(uuid "c2c7f4e6-5f6e-481e-8f96-aae306634232")
 			(effects
@@ -10140,7 +10140,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at -3.448024 0.03 0)
+			(at -0.005 -1.501976 0)
 			(layer "B.Fab")
 			(uuid "a54cbe7c-db8b-4c91-a113-e4a68fa6e588")
 			(effects
@@ -11831,7 +11831,7 @@
 			(uuid "65a67cc9-56c1-47e7-9492-84eb18738856")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -6.35 90)
+			(at -2.27507 -6.325 90)
 			(layer "B.Fab")
 			(uuid "c73b71e2-1e2d-45b4-9e68-ac83f52b9637")
 			(effects
@@ -13213,7 +13213,7 @@
 			)
 		)
 		(property "Value" "TCA39306DDFR"
-			(at 0 -2.4 0)
+			(at -0.01 -7.28 90)
 			(layer "B.Fab")
 			(uuid "b8315f1f-4a49-481c-9cf1-80efe2cd189c")
 			(effects
@@ -13535,7 +13535,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 -1.65 90)
+			(at 0.05 1.48 90)
 			(layer "B.Fab")
 			(uuid "3e1e14e0-65ba-49d9-b41a-173c2b95097d")
 			(effects
@@ -16584,7 +16584,7 @@
 			)
 		)
 		(property "Value" "Jumper_D9"
-			(at 5.31 0.0175 0)
+			(at -0.04 -1.5325 0)
 			(layer "B.Fab")
 			(uuid "e2634199-1e17-4056-b12b-af2dcb591c88")
 			(effects
@@ -17616,7 +17616,7 @@
 			(uuid "772320a3-6035-4d9a-9574-5ed714777177")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.54 0)
+			(at 4.115 -2.57 0)
 			(layer "B.Fab")
 			(uuid "ff68cdaa-03fe-4d0e-ac27-ee6b2f44c3cf")
 			(effects
@@ -17904,7 +17904,7 @@
 			)
 		)
 		(property "Value" "TPS613222ADBVR"
-			(at 1.75007 -4.62 90)
+			(at 0.03007 -8.35 90)
 			(layer "B.Fab")
 			(uuid "2d7c87e5-24db-4ba7-9599-3dfd470df457")
 			(effects
