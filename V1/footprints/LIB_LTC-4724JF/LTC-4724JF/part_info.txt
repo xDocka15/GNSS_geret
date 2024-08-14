@@ -1,0 +1,9 @@
+Manufacturer=Lite-On
+PartNumber=LTC-4724JF
+PartCategory=Display
+PackageCategory=Other
+PinCount=12
+Version=1.10
+Released=2023-03-29 12:37:42
+Downloaded=2024-07-23 18:07:32
+3D=Y
