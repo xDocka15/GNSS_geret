@@ -517,11 +517,15 @@
       "/Display/d": "rgb(105, 109, 255)",
       "/Display/f": "rgb(105, 109, 255)",
       "/Display/g": "rgb(105, 109, 255)",
+      "/VBATT": "rgb(255, 5, 207)",
       "CLK": "rgb(151, 156, 156)",
       "DT": "rgb(151, 156, 156)",
       "GNSS_RXD": "rgb(27, 255, 26)",
       "GNSS_TXD": "rgb(27, 119, 16)",
+      "Net-(AE401-A)": "rgb(182, 88, 6)",
+      "Net-(C403-Pad2)": "rgb(100, 3, 81)",
       "Net-(D2-K)": "rgb(177, 172, 0)",
+      "Net-(J4-Pin_1)": "rgb(39, 0, 100)",
       "Net-(U3-D7)": "rgb(0, 150, 148)",
       "Net-(U3-MOSI)": "rgb(1, 149, 150)",
       "RGB_3V3": "rgb(1, 150, 141)",
@@ -722,6 +726,18 @@
           "label": "Integration manual",
           "name": "Integration manual",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -785,12 +801,20 @@
       "Root"
     ],
     [
-      "2d592f67-4c05-4d6d-98b6-6efe4fa6f706",
+      "9ca8f2f0-17b3-4db3-a6cc-93c49e56ea8b",
+      "ESP"
+    ],
+    [
+      "5cdf5b9a-bc05-4fbb-ac1a-8c1a969964f2",
       "GNSS"
     ],
     [
       "944a09ba-484a-42c8-9e47-79436575a39f",
       "Display"
+    ],
+    [
+      "b51a4125-583a-49ea-bc46-7239af94be93",
+      "I2C_Level_Shifter"
     ]
   ],
   "text_variables": {}
