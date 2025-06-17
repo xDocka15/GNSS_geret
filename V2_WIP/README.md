@@ -9,7 +9,7 @@ Cielom je dosiahnut vyssiu integraciu, mensie rozmery a odstranit nedostatky
 z predchadzajucej verzie.
 
 Hlavne zmeny:
-- Z troch DPS zredukovat len na jednu dosku.
+[] Z troch DPS zredukovat len na jednu dosku.
 - Povodnu hotovu procesorovu dosku FireBeetle2 nahradit samostatnymi obvodmi 
   priamo na DPS a usetrit tym miesto:
   - Pouzit rovnaky ESP32-WROOM-32E modul
