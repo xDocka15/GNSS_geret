@@ -15,7 +15,7 @@ Hlavne zmeny:
   priamo na DPS a usetrit tym miesto:
   - [x] Pouzit rovnaky ESP32-WROOM-32E modul
   - [x] USB/UART prevodnik pre programovanie a ladenie ESP32 aj s DTR+RST pre programovanie
-  - [ ] Menic napatia z baterie na 3V3
+  - [x] Menic napatia z baterie na 3V3
   - [ ] Nabijaci obvod pre bateriu (lepsi ako na FireBeetle2)
 - [ ] Doplnit flash pre zaznam dat.
 - [ ] Lepsia citatelnost displeja s casom.
@@ -126,16 +126,16 @@ Vo verzii v2024 boli na DPS/scheme identifikovane nesledujuce body na zlepsenie:
   - TODO: Vyspecifikovat.
 - [x] Na vstup A a B z encodra doplnit pull-up rezistory 10k na 3V3.
 - [x] Do footprintu encodera pridat aj diery pre upevnovacie otvory (pajkovatelne, spojene s GND)
-- [ ] Pouzit iny typ stredneho 4-ciferneho displeja:
+- [x] Pouzit iny typ stredneho 4-ciferneho displeja:
   - Na v2024 bol pouzity typ so spolocnou anodou (KW4-804AGB).
     - Radic HT16K33 je koncipovany tak, ze:
     - cez samostatne anody dokaze do LED pustit 20mA
     - ces spolocnu katodu dokaze preniest 8x 20mA    
     - kvoli tomu nebolo mozne vybudit LED na maximalny jas co sa prejavilo na zlej 
       citatelnosti za slnecneho svetla.
-  - [ ] Vo v2025 pouzit model so spolocnou katodou (KW4-804CGB).   
+  - [x] Vo v2025 pouzit model so spolocnou katodou (KW4-804CGB).   
     - Tomu sa musi prisposobit aj zapojenie jednotlivych segmentov (po vzore maleho displeja).
-    - [ ] TODO: vyspecifikovat zapojenie displeja.    
+    - [x] TODO: vyspecifikovat zapojenie displeja.    
 - [ ] Pouzit USB-C konektor, zapojenie rovnake ako na FireBeetle2.
 - [ ] Ku GNSS modulu pripojit aj zalohovaciu bateriu pre RTC.
 
