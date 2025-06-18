@@ -111,14 +111,14 @@ na pravej strane (na opacnej ako je encoder, aby sa rukou nezakryl).
 V kryte sa na danom mieste urobi vybratie, cez ktore (a cez foliu) bude prenikat okolite svetlo
 az ku DPS.
 
-- [ ] TODO: Pouzit jednoduchy fototranzistor? Vyspecifikovat.
+- [x] TODO: Pouzit jednoduchy fototranzistor? Vyspecifikovat.
 
 
 ## Upravy
 
 Vo verzii v2024 boli na DPS/scheme identifikovane nesledujuce body na zlepsenie: 
 
-- [ ] Doplnit USB iface pre gnss (3v3 urovne, pripojit vdd_usb)
+- [x] Doplnit USB iface pre gnss (3v3 urovne, pripojit vdd_usb)
   Zvazit umiestnenie plnohodnotneho USB micro-B konektora otoceneho ku okraju DPS 
   kvoli servisnemu pristupu do GNSS modulu. Pouzit uhlovy konektor o 90st zarovnany 
   s okrajom DPS. Pristupny bude len po vybrati DPS z krabicky.
@@ -154,13 +154,13 @@ Vo verzii v2024 chybali nasledujuce veci, ktore su aplikovatelne aj na v2025:
 
 Pri navrhu DPS zohladnit nasledujuce pripomienky:
 
-- [ ] Pri ploskach spojenych s GND nastavit uzsie (tensie) mostiky, ktore prepajaju 
+- [x] Pri ploskach spojenych s GND nastavit uzsie (tensie) mostiky, ktore prepajaju 
   plosku s okolitou "vyliatou" plochou, resp. s vrstvou GND. Pri rucnom pajkovani 
   sa cez mensie mostiky odvadza menej tepla do susednej velkej medenej plochy 
   a suciastky sa lahsie osadzuju.
 - [ ] Popisok konektora dat dalej od samotnej suciastky (aby sa po osadeni nezakryl).
-- [ ] Zvacsit diery pre hlavny vypinac (bolo treba zbrusit z pinov).
-  - [ ] TODO: diery pre kontakty alebo upevnovacie diery?
+- [x] Zvacsit diery pre hlavny vypinac (bolo treba zbrusit z pinov).
+  - [x] TODO: diery pre kontakty alebo upevnovacie diery?
 - [ ] Mensie diery pre kolikove konektory (ak budu pouzite, boli volne a dali sa osadit krivo :)
 - [ ] Doplnit popisky ku test-padom "TPx" aby sa dali lahsie sparovat so schemou.
 - [ ] Pri vyrobe pouzit ciernu farbu plosaku, nie zelenu. Cierne pozadie zlepsi 
@@ -170,7 +170,7 @@ Pri navrhu DPS zohladnit nasledujuce pripomienky:
   * TP6 (5V)
   * TPxy (3V3, pridat)
   * TPxy (GND, pridat)
-- [ ] Antenny konektor moze byt bud SMA alebo U.FL (IPEX)
+- [x] Antenny konektor moze byt bud SMA alebo U.FL (IPEX)
   * Na DPS cez seba prekryt plosky pre oba typy konektorov
   * Vid. footprint: https://meshtastic.org/assets/images/t-beam-sx1262-3dc0a8d2d866b06b04a457567063e034.webp
   * Bud sa osadi SMA konektor (uhlovy alebo priamy) alebo sa osadi U.FL konektor
