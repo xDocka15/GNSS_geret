@@ -30,8 +30,8 @@ Vacsina suciastok zostava zachovana, zhodna s verziou v2024.
 
 Zvolit modul:
 - ESP32-WROVER-E-N16R8 - trosku vacsi rozmer, ale ma vacsiu pamat, vyvody len z dvoch stran.
-- ESP32-WROOM-32E-N16R2 - mensi rozmer, mensia pamat, vyvody z troch stran.
-- [ ]
+- [x] ESP32-WROOM-32E-N16R2 - mensi rozmer, mensia pamat, vyvody z troch stran.
+
 
 Umiestnit antenou ku okraju DPS. Pod vstavanou antenou je potrebne odstranit
 oblast zeme v jednotlivych vrstvach DPS tak aby nedoslo ku zatieneniu anteny (napr.
@@ -100,7 +100,7 @@ Nakolko su vsetky ostatne LED pripojene len cez komunikacne rozhranie, tato bude
 urcite fungovat vzdy.
 Zapojit na GPIOxy voci GND.
 
-- [ ] TODO: Urcit, na ktory GPIO pin. 
+- [x] TODO: Urcit, na ktory GPIO pin. 
 
 
 ### Senzor osvetlenia
@@ -122,7 +122,7 @@ Vo verzii v2024 boli na DPS/scheme identifikovane nesledujuce body na zlepsenie:
   Zvazit umiestnenie plnohodnotneho USB micro-B konektora otoceneho ku okraju DPS 
   kvoli servisnemu pristupu do GNSS modulu. Pouzit uhlovy konektor o 90st zarovnany 
   s okrajom DPS. Pristupny bude len po vybrati DPS z krabicky.
-- [ ] Pridat odrusovaci kondik na tlacidlo tocitka.
+- [x] Pridat odrusovaci kondik na tlacidlo tocitka.
   - TODO: Vyspecifikovat.
 - [x] Na vstup A a B z encodra doplnit pull-up rezistory 10k na 3V3.
 - [x] Do footprintu encodera pridat aj diery pre upevnovacie otvory (pajkovatelne, spojene s GND)
@@ -144,9 +144,9 @@ Vo verzii v2024 boli na DPS/scheme identifikovane nesledujuce body na zlepsenie:
 
 Vo verzii v2024 chybali nasledujuce veci, ktore su aplikovatelne aj na v2025:
 
-* Na 5V vetvu pridat velky stabilizacny kondik 470u/16V.
+- [x] Na 5V vetvu pridat velky stabilizacny kondik 470u/16V.
 * Doplnit oznacenie D2 do schemy.
-* Pridat test pad s GND (na pripojenie sondy multimetra/osciloskopu).
+- [x] Pridat test pad s GND (na pripojenie sondy multimetra/osciloskopu).
 
 
 
@@ -162,7 +162,7 @@ Pri navrhu DPS zohladnit nasledujuce pripomienky:
 - [x] Zvacsit diery pre hlavny vypinac (bolo treba zbrusit z pinov).
   - [x] TODO: diery pre kontakty alebo upevnovacie diery?
 - [ ] Mensie diery pre kolikove konektory (ak budu pouzite, boli volne a dali sa osadit krivo :)
-- [ ] Doplnit popisky ku test-padom "TPx" aby sa dali lahsie sparovat so schemou.
+- [x] Doplnit popisky ku test-padom "TPx" aby sa dali lahsie sparovat so schemou.
 - [ ] Pri vyrobe pouzit ciernu farbu plosaku, nie zelenu. Cierne pozadie zlepsi 
   citatelnost 7-seg displejov.
 - [ ] Niektore TP presunut ku okrajom DPS, tak aby boli dostupne z oboch stran DPS 
