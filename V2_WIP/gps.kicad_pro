@@ -828,6 +828,10 @@
     [
       "b51a4125-583a-49ea-bc46-7239af94be93",
       "I2C_Level_Shifter"
+    ],
+    [
+      "280f742a-a734-4c07-ab96-9dbf73329b01",
+      "Battery"
     ]
   ],
   "text_variables": {}

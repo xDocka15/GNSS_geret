@@ -1,4 +1,4 @@
-23771095990826208
+23772846349214662
 7seg_rgb
 7seg_1x1_rgb
 
@@ -80022,6 +80022,13 @@ SOP, 8 Pin (https://ww2.minicircuits.com/case_style/XX112.pdf), generated with k
 SOP SO
 0
 20
+9
+Package_SO
+SOP-8L
+
+
+0
+9
 9
 Package_SO
 SOP-8_3.9x4.9mm_P1.27mm
