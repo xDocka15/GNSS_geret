@@ -137,7 +137,7 @@ Vo verzii v2024 boli na DPS/scheme identifikovane nesledujuce body na zlepsenie:
     - Tomu sa musi prisposobit aj zapojenie jednotlivych segmentov (po vzore maleho displeja).
     - [x] TODO: vyspecifikovat zapojenie displeja.    
 - [ ] Pouzit USB-C konektor, zapojenie rovnake ako na FireBeetle2.
-- [ ] Ku GNSS modulu pripojit aj zalohovaciu bateriu pre RTC.
+- [x] Ku GNSS modulu pripojit aj zalohovaciu bateriu pre RTC.
 
 
 ### Chybajuce veci
@@ -165,7 +165,7 @@ Pri navrhu DPS zohladnit nasledujuce pripomienky:
 - [x] Doplnit popisky ku test-padom "TPx" aby sa dali lahsie sparovat so schemou.
 - [ ] Pri vyrobe pouzit ciernu farbu plosaku, nie zelenu. Cierne pozadie zlepsi 
   citatelnost 7-seg displejov.
-- [ ] Niektore TP presunut ku okrajom DPS, tak aby boli dostupne z oboch stran DPS 
+- [x] Niektore TP presunut ku okrajom DPS, tak aby boli dostupne z oboch stran DPS 
   a neboli zakryte suciastkami (napr. displejmi): 
   * TP6 (5V)
   * TPxy (3V3, pridat)
