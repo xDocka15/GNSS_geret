@@ -2552,6 +2552,12 @@
 		(uuid "49410c98-60f2-4d0a-bc85-65ae54fe7f1d")
 	)
 	(junction
+		(at 189.23 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fc8d931-f3a6-4347-8630-e05c1e06ade2")
+	)
+	(junction
 		(at 134.62 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2696,6 +2702,16 @@
 			(type default)
 		)
 		(uuid "57f4de43-0827-4733-9983-80de2857eae3")
+	)
+	(wire
+		(pts
+			(xy 189.23 107.95) (xy 209.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f8109e-372e-4e82-85ea-7404fd4be79b")
 	)
 	(wire
 		(pts
@@ -2899,6 +2915,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 107.95) (xy 209.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75d3532-67a0-4a6b-883a-626897333762")
+	)
+	(wire
+		(pts
 			(xy 104.14 96.52) (xy 91.44 96.52)
 		)
 		(stroke
@@ -2930,20 +2956,19 @@
 		(uuid "4924fb86-4db1-45a4-a6d7-58bf6707afb7")
 	)
 	(hierarchical_label "Pulse"
-		(shape input)
+		(shape output)
 		(at 157.48 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "949ff667-072e-4676-9f35-4035e80b3fb3")
 	)
 	(hierarchical_label "TxD"
-		(shape input)
+		(shape output)
 		(at 111.76 100.33 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2955,7 +2980,7 @@
 		(uuid "df83bb6f-4955-4892-8406-6ad80c9b02da")
 	)
 	(hierarchical_label "VUSB"
-		(shape input)
+		(shape output)
 		(at 76.2 88.9 90)
 		(fields_autoplaced yes)
 		(effects
@@ -3031,6 +3056,72 @@
 			(project "gps"
 				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/5cdf5b9a-bc05-4fbb-ac1a-8c1a969964f2"
 					(reference "L401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05d2b0a7-05b2-414a-afda-51de1c143124")
+		(property "Reference" "#PWR0303"
+			(at 212.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddda3a6b-c091-4c04-b5c4-d571b9d89488")
+		)
+		(instances
+			(project "gps"
+				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/5cdf5b9a-bc05-4fbb-ac1a-8c1a969964f2"
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -3318,6 +3409,76 @@
 			(project "gps"
 				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/5cdf5b9a-bc05-4fbb-ac1a-8c1a969964f2"
 					(reference "#PWR0404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna_Shield")
+		(at 209.55 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f5ceef8-776b-4caa-a31d-9220febea0ad")
+		(property "Reference" "AE301"
+			(at 213.36 89.5349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna_Shield"
+			(at 213.36 92.0749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna with extra pin for shielding"
+			(at 209.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b00e87b-b258-4d07-825f-c9cc109eb3d4")
+		)
+		(pin "2"
+			(uuid "20fdf210-5afb-4068-afde-3f6747677132")
+		)
+		(instances
+			(project "gps"
+				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/5cdf5b9a-bc05-4fbb-ac1a-8c1a969964f2"
+					(reference "AE301")
 					(unit 1)
 				)
 			)
