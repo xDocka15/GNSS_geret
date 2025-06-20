@@ -4983,6 +4983,25 @@
 		)
 		(uuid "08845050-1ec2-4249-b9f7-ec51e833346a")
 	)
+	(text_box "Obsolete"
+		(exclude_from_sim no)
+		(at 154.94 19.05 0)
+		(size 18.415 6.985)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9e1bf5c9-0e6c-4d57-89ef-73583585a37a")
+	)
 	(text "Wrong footprint"
 		(exclude_from_sim no)
 		(at 50.292 50.038 0)
@@ -6512,8 +6531,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1fa7eac2-6d75-4df7-a5f7-fb7928c8874b")
 		(property "Reference" "C13"
@@ -7746,8 +7765,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5e93dc80-7b9d-422c-b482-f0888ae2bd8b")
 		(property "Reference" "R201"
@@ -7814,8 +7833,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5e987256-9847-47c0-97b0-46b6de7d4c77")
 		(property "Reference" "D5"
@@ -8220,8 +8239,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "73db3ed5-12e5-4187-bd1f-89ae6310ee8c")
 		(property "Reference" "U13"
@@ -8504,8 +8523,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "8c67c14c-afae-49e7-89a3-f10285ff91b0")
 		(property "Reference" "C12"
 			(at 165.1 39.37 0)
@@ -8773,8 +8792,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9fc0459e-84aa-4404-99a1-1fd295cbf47a")
 		(property "Reference" "R13"
@@ -9217,8 +9236,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aad45e25-e3f0-44de-af5f-f79d14dde6cf")
 		(property "Reference" "R14"

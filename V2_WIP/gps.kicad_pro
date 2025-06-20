@@ -832,6 +832,10 @@
     [
       "280f742a-a734-4c07-ab96-9dbf73329b01",
       "Battery"
+    ],
+    [
+      "793bb65f-e69c-4ef5-b9d8-1f6ded4a88fa",
+      "Encoder"
     ]
   ],
   "text_variables": {}

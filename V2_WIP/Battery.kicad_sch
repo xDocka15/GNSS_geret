@@ -1216,16 +1216,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "STMicroelectronics"
+			(property "Description" "STC3100 Series 5.5 V Battery Monitor IC with Coulomb Counter/Gas Gauge - MSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1235,7 +1226,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "STC3100 Series 5.5 V Battery Monitor IC with Coulomb Counter/Gas Gauge - MSOP-8"
+			(property "MF" "STMicroelectronics"
 				(at 0 0 0)
 				(effects
 					(font
