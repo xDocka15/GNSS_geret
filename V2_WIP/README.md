@@ -17,7 +17,7 @@ Hlavne zmeny:
   - [x] USB/UART prevodnik pre programovanie a ladenie ESP32 aj s DTR+RST pre programovanie
   - [x] Menic napatia z baterie na 3V3
   - [ ] Nabijaci obvod pre bateriu (lepsi ako na FireBeetle2)
-- [ ] Doplnit flash pre zaznam dat.
+- [x] Doplnit flash pre zaznam dat.
 - [ ] Lepsia citatelnost displeja s casom.
 
 Vacsina suciastok zostava zachovana, zhodna s verziou v2024. 
@@ -71,9 +71,9 @@ Pripojit na SPI rozhranie.
 
 Na napajanie bude pouzity jeden clanok Li-Ion baterie (v letectve sa nepouzivaju Li-Pol). 
 Mal by obsahovat:
-- [ ] moznost vycitat cez komunikaciu (idealne I2C) stav nabijania (miera vybita)
-- [ ] coulomb counter na meranie kapacity bateria
-- [ ] meranie napatia baterie
+- [x] moznost vycitat cez komunikaciu (idealne I2C) stav nabijania (miera vybita)
+- [x] coulomb counter na meranie kapacity bateria
+- [x] meranie napatia baterie
 
 Zapracovat modul na sledovanie kapacity LiXy batetie MAX17043.
 https://techfun.sk/produkt/max17043-i2c-modul-pre-sledovanie-stavu-baterie-1s/
@@ -83,7 +83,7 @@ Coulomb counter TC3100 + nabijaci obvod IP5306-I2C.
 https://electronics.stackexchange.com/questions/17463/help-on-stc3100-calculations
 https://github.com/danirebollo/ArduinoSTC3100
 
-- [ ] TODO: upresnit.
+- [x] TODO: upresnit.
 
 
 ### Tlacidlo
