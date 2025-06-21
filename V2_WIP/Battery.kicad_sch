@@ -3970,7 +3970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.laskakit.cz/user/related_files/ip5306-1.pdf"
 			(at 78.74 95.25 0)
 			(effects
 				(font
@@ -4180,7 +4180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stc3100.pdf"
 			(at 173.99 111.76 0)
 			(effects
 				(font
@@ -5208,7 +5208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1769:1769"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical"
 			(at 241.3 91.44 0)
 			(effects
 				(font
@@ -5217,7 +5217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Molex/53398-4004?qs=iLbezkQI%252Bsg1CAiQuTsV2g%3D%3D"
 			(at 241.3 91.44 0)
 			(effects
 				(font

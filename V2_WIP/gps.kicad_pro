@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -97,9 +97,9 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -529,6 +529,8 @@
       "/ESP/IO22{slash}SCL": "rgb(135, 0, 137)",
       "/GNSS_RxD": "rgb(0, 255, 4)",
       "/GNSS_TxD": "rgb(3, 163, 0)",
+      "/SCL_3V3": "rgb(117, 72, 165)",
+      "/SDA_3V3": "rgb(174, 102, 255)",
       "/VBATT": "rgb(254, 255, 0)",
       "/VUSB": "rgb(255, 144, 0)",
       "CLK": "rgb(151, 156, 156)",
