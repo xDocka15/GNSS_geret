@@ -16,7 +16,7 @@ Hlavne zmeny:
   - [x] Pouzit rovnaky ESP32-WROOM-32E modul
   - [x] USB/UART prevodnik pre programovanie a ladenie ESP32 aj s DTR+RST pre programovanie
   - [x] Menic napatia z baterie na 3V3
-  - [ ] Nabijaci obvod pre bateriu (lepsi ako na FireBeetle2)
+  - [x] Nabijaci obvod pre bateriu (lepsi ako na FireBeetle2)
 - [x] Doplnit flash pre zaznam dat.
 - [ ] Lepsia citatelnost displeja s casom.
 
@@ -64,7 +64,7 @@ Zapracovat "velku" SPI flash, ktora sa bude pouzivat na zaznam udajov z letu.
 Napr. 128Mbit (16MB) [Winbond W25Q128FV](https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?__locale=en&partNo=W25Q128FV).
 Pripojit na SPI rozhranie.
 
- - [ ] TODO: vyspecifikovat, na ktore piny procesora pripojit. Ktore z dvoch SPI rozhrani je volne?
+ - [x] TODO: vyspecifikovat, na ktore piny procesora pripojit. Ktore z dvoch SPI rozhrani je volne?
 
 
 ### Nabijaci resp. power-management modul
@@ -89,7 +89,7 @@ https://github.com/danirebollo/ArduinoSTC3100
 ### Tlacidlo
 Pridat nove mikro-tlacidlo niekam na pravu prednu stranu. 
 
-- [ ] TODO: Vyspecifikovat tlacidlo, umiestnenie a pripojenie. 
+- [x] TODO: Vyspecifikovat tlacidlo, umiestnenie a pripojenie. 
 
 
 ### Indikacna LED
