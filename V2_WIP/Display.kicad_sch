@@ -3684,7 +3684,7 @@
 		)
 		(uuid "37d3aeb3-6a7b-427d-b6d4-0e4228180d8e")
 	)
-	(hierarchical_label "RGB_3V3"
+	(hierarchical_label "RGB_DATA"
 		(shape input)
 		(at 191.77 144.78 180)
 		(fields_autoplaced yes)

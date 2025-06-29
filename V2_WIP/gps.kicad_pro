@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -495,7 +495,7 @@
     },
     "net_colors": {
       "+3V3": "rgb(255, 4, 0)",
-      "+5V": "rgb(226, 125, 0)",
+      "+5V": "rgb(255, 141, 0)",
       "+BATT": "rgb(255, 157, 0)",
       "/Display/CA1": "rgb(255, 155, 156)",
       "/Display/CA2": "rgb(255, 155, 156)",
@@ -535,7 +535,7 @@
       "/SCL_3V3": "rgb(117, 72, 165)",
       "/SDA_3V3": "rgb(174, 102, 255)",
       "/VBATT": "rgb(254, 255, 0)",
-      "/VUSB": "rgb(255, 144, 0)",
+      "/VUSB": "rgb(156, 88, 0)",
       "CLK": "rgb(151, 156, 156)",
       "DT": "rgb(151, 156, 156)",
       "GNSS_RXD": "rgb(27, 255, 26)",
