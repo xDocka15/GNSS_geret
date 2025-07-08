@@ -3027,6 +3027,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 86.36) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506f119b-3c00-46b1-b3d5-16697c3561ed")
+	)
+	(wire
+		(pts
 			(xy 167.64 100.33) (xy 168.91 100.33)
 		)
 		(stroke
@@ -3074,6 +3084,16 @@
 			(type default)
 		)
 		(uuid "684b9abc-5e4a-4f26-86ec-e46108c36af1")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c82a60-5540-440e-ad63-19e1f4d20141")
 	)
 	(wire
 		(pts
@@ -3309,7 +3329,7 @@
 	)
 	(hierarchical_label "VUSB"
 		(shape output)
-		(at 76.2 83.82 90)
+		(at 76.2 78.74 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5542,16 +5562,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 76.2 86.36 0)
+		(at 76.2 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fe2f93f3-e89a-4b8e-8785-9a0c3acc77e6")
 		(property "Reference" "R302"
-			(at 78.74 85.0899 0)
+			(at 78.74 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5580,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 78.74 87.6299 0)
+			(at 78.74 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +5589,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 76.2 86.36 0)
+			(at 76.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +5598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 86.36 0)
+			(at 76.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5587,7 +5607,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 76.2 86.36 0)
+			(at 76.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

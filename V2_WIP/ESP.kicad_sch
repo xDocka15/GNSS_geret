@@ -3795,7 +3795,7 @@
 		(at 83.82 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c9d7c1df-f8f7-428e-b45a-dd227c22472d")
+		(uuid "c7f42345-46c9-4610-889f-9efbc4c5adf1")
 	)
 	(junction
 		(at 35.56 99.06)
@@ -3892,16 +3892,6 @@
 			(type default)
 		)
 		(uuid "09803cf0-1d68-4e9e-84b5-c60fdc79ddbd")
-	)
-	(wire
-		(pts
-			(xy 90.17 173.99) (xy 83.82 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09b56866-85e0-41c1-90be-6a412c884564")
 	)
 	(wire
 		(pts
@@ -4102,6 +4092,16 @@
 			(type default)
 		)
 		(uuid "346a517a-d76d-498c-b182-d549efd0c529")
+	)
+	(wire
+		(pts
+			(xy 83.82 175.26) (xy 83.82 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370f7224-7f12-4e4b-9545-7bf4e65cca03")
 	)
 	(wire
 		(pts
@@ -4395,6 +4395,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 182.88) (xy 83.82 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81844b96-bf2e-4ac6-a8f1-cf6a10a13b74")
+	)
+	(wire
+		(pts
 			(xy 45.72 99.06) (xy 45.72 104.14)
 		)
 		(stroke
@@ -4542,6 +4552,16 @@
 			(type default)
 		)
 		(uuid "986ab82c-c37a-4e67-966a-e913c4ff373e")
+	)
+	(wire
+		(pts
+			(xy 83.82 173.99) (xy 90.17 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f16f27-9b8b-4ac9-9583-be09f3dfb0d8")
 	)
 	(wire
 		(pts
@@ -5016,7 +5036,7 @@
 	(text_box "https://www.tme.eu/cz/details/usb4145-03-0230-c/konektory-usb-a-ieee1394/gct/"
 		(exclude_from_sim no)
 		(at 31.75 60.325 0)
-		(size 26.67 8.255)
+		(size 89.154 8.255)
 		(stroke
 			(width 0)
 			(type default)
@@ -5031,6 +5051,25 @@
 			(justify left top)
 		)
 		(uuid "08845050-1ec2-4249-b9f7-ec51e833346a")
+	)
+	(text_box "Manual rst possible by shorting R202"
+		(exclude_from_sim no)
+		(at 79.756 162.306 0)
+		(size 17.78 9.398)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9b65a656-f679-4f46-9d00-ac1e547dcc3f")
 	)
 	(text_box "Obsolete"
 		(exclude_from_sim no)
@@ -7937,6 +7976,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 83.82 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "62f7c770-fdac-4a7e-b36e-84afa2e7ac20")
+		(property "Reference" "R202"
+			(at 86.36 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Manual rst"
+			(at 86.36 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 82.042 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ff1b5f9-51dd-4782-8d66-e5b3303c6623")
+		)
+		(pin "2"
+			(uuid "503b317f-d8b0-4896-abd9-b262dd36e6dd")
+		)
+		(instances
+			(project "gps"
+				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/9ca8f2f0-17b3-4db3-a6cc-93c49e56ea8b"
+					(reference "R202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 -17.78 0)
 		(unit 1)
@@ -8063,76 +8172,6 @@
 			(project "gps"
 				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/9ca8f2f0-17b3-4db3-a6cc-93c49e56ea8b"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 83.82 179.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6db0d427-6598-48d7-b430-7eb0e2e22109")
-		(property "Reference" "SW_RST201"
-			(at 87.63 177.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FSM14JLH"
-			(at 87.63 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 88.9 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/TE-Connectivity/FSM14JLH?qs=qzQkFgQjdxV0segVqkThUg%3D%3D"
-			(at 88.9 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 83.82 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68b7a135-14b5-46b4-b6ec-965fdd6cd3d6")
-		)
-		(pin "1"
-			(uuid "7e1a5786-ebaf-4780-b28e-55b546ca4bf2")
-		)
-		(instances
-			(project "gps"
-				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/9ca8f2f0-17b3-4db3-a6cc-93c49e56ea8b"
-					(reference "SW_RST201")
 					(unit 1)
 				)
 			)
