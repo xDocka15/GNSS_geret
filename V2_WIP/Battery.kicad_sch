@@ -2050,6 +2050,12 @@
 		(uuid "4299ec8a-3da9-437d-996e-5f5e873dab6d")
 	)
 	(junction
+		(at 119.38 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49a4a765-f136-4239-b22b-087b8fd6c991")
+	)
+	(junction
 		(at 212.09 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2072,18 +2078,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e513eb3a-753d-48ff-bdcb-271f94d56ebb")
-	)
-	(junction
-		(at 119.38 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eae6ce1b-4ff1-45bf-9ca7-0af90094b2f9")
-	)
-	(junction
-		(at 119.38 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "feb25139-ef47-4bc4-93a6-86b471415394")
 	)
 	(no_connect
 		(at 245.11 107.95)
@@ -2261,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 73.66) (xy 119.38 82.55)
+			(xy 119.38 80.01) (xy 119.38 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2409,17 +2403,26 @@
 		)
 		(uuid "f46b3356-f697-4ed0-a82b-34c8562a7eeb")
 	)
-	(wire
-		(pts
-			(xy 119.38 71.12) (xy 119.38 73.66)
-		)
+	(text_box "MaxOut 2A"
+		(exclude_from_sim no)
+		(at 98.044 65.532 0)
+		(size 11.176 5.08)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbac3934-eea7-488f-ae79-fd6d5f2c60bd")
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "80788382-c678-4998-b75b-c1264cb559d5")
 	)
-	(text_box "Battery connection wth off switch that dissconnects the battery"
+	(text_box "Battery connection with off switch that disconnects the battery"
 		(exclude_from_sim no)
 		(at 243.205 111.76 0)
 		(size 32.385 9.525)
@@ -3004,72 +3007,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 119.38 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f64a133-f883-48d8-8249-2650406d4df0")
-		(property "Reference" "TP603"
-			(at 127 71.882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+5V"
-			(at 124.46 71.882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 119.38 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 119.38 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c281706b-b902-4578-8284-a2fa0dd1be89")
-		)
-		(instances
-			(project "gps"
-				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/280f742a-a734-4c07-ab96-9dbf73329b01"
-					(reference "TP603")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 27.94 92.71 0)
 		(unit 1)
@@ -3479,7 +3416,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 119.38 71.12 0)
+		(at 119.38 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3488,7 +3425,7 @@
 		(fields_autoplaced yes)
 		(uuid "58a7c6d6-d892-4493-b6f0-25c447eee8d9")
 		(property "Reference" "#PWR0601"
-			(at 119.38 74.93 0)
+			(at 119.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3434,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 119.38 66.04 0)
+			(at 119.38 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 71.12 0)
+			(at 119.38 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +3451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 71.12 0)
+			(at 119.38 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 71.12 0)
+			(at 119.38 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,75 +3608,6 @@
 			(project "gps"
 				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/280f742a-a734-4c07-ab96-9dbf73329b01"
 					(reference "R_E605")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 119.38 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "651dc004-0de0-4bd4-9670-58c428282170")
-		(property "Reference" "C610"
-			(at 117.094 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u"
-			(at 117.094 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
-			(at 118.4148 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7cf3007-c846-477b-9dae-f653bfc1709f")
-		)
-		(pin "2"
-			(uuid "3ffec378-817d-40c7-92ac-803e9b5e9e5d")
-		)
-		(instances
-			(project "gps"
-				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/280f742a-a734-4c07-ab96-9dbf73329b01"
-					(reference "C610")
 					(unit 1)
 				)
 			)
@@ -4849,6 +4717,76 @@
 			(project "gps"
 				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/280f742a-a734-4c07-ab96-9dbf73329b01"
 					(reference "C601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 119.38 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6883f3c-b6a7-422a-8cf6-44a1da6b3365")
+		(property "Reference" "C610"
+			(at 123.19 84.2009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 123.19 86.7409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
+			(at 120.3452 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b74456a6-01db-4263-9d51-5e41c1672937")
+		)
+		(pin "2"
+			(uuid "85b35e1a-3e85-4dc2-ad67-225b9bf13aa3")
+		)
+		(instances
+			(project ""
+				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/280f742a-a734-4c07-ab96-9dbf73329b01"
+					(reference "C610")
 					(unit 1)
 				)
 			)

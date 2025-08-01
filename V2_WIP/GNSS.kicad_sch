@@ -1171,6 +1171,169 @@
 				)
 			)
 		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -2842,16 +3005,16 @@
 		)
 	)
 	(junction
-		(at 116.84 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04336a90-5b38-4bb4-83ec-c1f31e8d3ee1")
-	)
-	(junction
 		(at 179.07 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "077b6766-e5f2-4ee8-923a-40924d5df694")
+	)
+	(junction
+		(at 119.38 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09d0d88c-5e87-4379-9ff7-29b268e8639f")
 	)
 	(junction
 		(at 57.15 104.14)
@@ -2884,12 +3047,6 @@
 		(uuid "7b83e38d-a750-4a5d-8309-c4a5ba90cadb")
 	)
 	(junction
-		(at 116.84 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "809a4df2-4801-4698-8f9b-ac9b6108315f")
-	)
-	(junction
 		(at 179.07 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2906,6 +3063,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f018964a-a88b-4493-95b8-ddc7b3b57f2e")
+	)
+	(junction
+		(at 119.38 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff3ff00b-d9c6-4729-8367-285694613141")
 	)
 	(no_connect
 		(at 121.92 115.57)
@@ -2937,7 +3100,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 100.33) (xy 116.84 100.33)
+			(xy 76.2 77.47) (xy 76.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02940c8d-136d-4d50-b279-e5660555fb60")
+	)
+	(wire
+		(pts
+			(xy 111.76 100.33) (xy 119.38 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2954,6 +3127,16 @@
 			(type default)
 		)
 		(uuid "118748d3-009b-4dc8-8c11-f5264f3b6fbc")
+	)
+	(wire
+		(pts
+			(xy 119.38 102.87) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5f889b-4b55-46db-aa81-b60714e46fba")
 	)
 	(wire
 		(pts
@@ -2984,6 +3167,16 @@
 			(type default)
 		)
 		(uuid "2cb24f6d-18d9-489c-a138-f743393d698f")
+	)
+	(wire
+		(pts
+			(xy 119.38 100.33) (xy 121.92 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f50af3a-297f-4e58-a28c-6243240353eb")
 	)
 	(wire
 		(pts
@@ -3087,13 +3280,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 78.74) (xy 76.2 81.28)
+			(xy 119.38 106.68) (xy 119.38 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68c82a60-5540-440e-ad63-19e1f4d20141")
+		(uuid "6fed5098-c773-4b55-b01b-3ef78e742757")
 	)
 	(wire
 		(pts
@@ -3127,16 +3320,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 102.87) (xy 121.92 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "769de335-fa8e-4549-ba84-ae9d4daa80d6")
-	)
-	(wire
-		(pts
 			(xy 54.61 104.14) (xy 57.15 104.14)
 		)
 		(stroke
@@ -3147,7 +3330,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 102.87) (xy 116.84 102.87)
+			(xy 111.76 102.87) (xy 119.38 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3177,16 +3360,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 100.33) (xy 121.92 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b39f2278-df69-4195-be67-8fe37a057872")
-	)
-	(wire
-		(pts
 			(xy 179.07 96.52) (xy 179.07 100.33)
 		)
 		(stroke
@@ -3194,6 +3367,16 @@
 			(type default)
 		)
 		(uuid "bad1012d-d747-4c6f-9dc2-e33221f8d4bb")
+	)
+	(wire
+		(pts
+			(xy 119.38 97.79) (xy 119.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc8fc65-a9c1-4b52-ac43-882220b8f713")
 	)
 	(wire
 		(pts
@@ -3329,7 +3512,7 @@
 	)
 	(hierarchical_label "VUSB"
 		(shape output)
-		(at 76.2 78.74 90)
+		(at 76.2 77.47 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4398,7 +4581,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 116.84 100.33 0)
+		(at 119.38 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4406,7 +4589,7 @@
 		(dnp no)
 		(uuid "96b531c1-ca0a-44c6-adda-248bdebdf812")
 		(property "Reference" "TP401"
-			(at 115.824 96.012 90)
+			(at 115.062 98.806 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,7 +4598,7 @@
 			)
 		)
 		(property "Value" "GNSS_TXD"
-			(at 118.364 96.012 90)
+			(at 115.062 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4607,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 121.92 100.33 0)
+			(at 119.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +4616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 100.33 0)
+			(at 119.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +4625,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 116.84 100.33 0)
+			(at 119.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,6 +5192,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 76.2 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c59d341e-ac30-48fc-938e-37ac20e344b7")
+		(property "Reference" "D301"
+			(at 78.74 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 78.74 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diotec-Semiconductor/M2?qs=sGAEpiMZZMtbRapU8LlZDx2r3HTumQnibe%2FZmv21Qi%252BB2t1FfYiJ1Q%3D%3D"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f84d394-8b88-423f-b2a7-0f8a328dea55")
+		)
+		(pin "2"
+			(uuid "b12914f6-4d9c-4e78-8a11-6d7114ef7b4f")
+		)
+		(instances
+			(project "gps"
+				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/5cdf5b9a-bc05-4fbb-ac1a-8c1a969964f2"
+					(reference "D301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_B_Micro")
 		(at 57.15 93.98 0)
 		(unit 1)
@@ -5356,7 +5627,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 116.84 102.87 180)
+		(at 119.38 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5364,7 +5635,7 @@
 		(dnp no)
 		(uuid "ee174040-19ed-430a-ae80-2ec5de7417d8")
 		(property "Reference" "TP402"
-			(at 117.856 107.188 90)
+			(at 115.062 107.696 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5644,7 @@
 			)
 		)
 		(property "Value" "GNSS_RXD"
-			(at 115.316 107.188 90)
+			(at 115.062 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5653,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 111.76 102.87 0)
+			(at 119.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5662,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 102.87 0)
+			(at 119.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5671,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 116.84 102.87 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,76 +5826,6 @@
 			(project "gps"
 				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/5cdf5b9a-bc05-4fbb-ac1a-8c1a969964f2"
 					(reference "R401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 76.2 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "fe2f93f3-e89a-4b8e-8785-9a0c3acc77e6")
-		(property "Reference" "R302"
-			(at 78.74 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 78.74 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "445c90b9-7f29-49e6-b16a-56be57aba901")
-		)
-		(pin "1"
-			(uuid "0abb51d7-0cfe-46cf-9401-124a0393a087")
-		)
-		(instances
-			(project "gps"
-				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/5cdf5b9a-bc05-4fbb-ac1a-8c1a969964f2"
-					(reference "R302")
 					(unit 1)
 				)
 			)
