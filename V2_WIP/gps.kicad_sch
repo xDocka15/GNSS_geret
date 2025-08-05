@@ -111,799 +111,6 @@
 				)
 			)
 		)
-		(symbol "DFR0654:DFR0654"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 26.162 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "DFR0654"
-				(at -12.7 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "DFR0654:MODULE_DFR0654"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "DFRobot"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nESP32 ESP32-E Transceiver; 802.11 b/g/n/d/e/i/k/r (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) 2.4GHz ~ 2.5GHz Evaluation Board\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/DFR0654/DFRobot/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DFR0654/DFRobot/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "DFR0654"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6027324&manufacturer=DFRobot&part_name=DFR0654&search_term=None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "DFRobot"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "DFR0654_0_0"
-				(rectangle
-					(start -12.7 -27.94)
-					(end 12.7 25.4)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 12.7 0)
-					(length 5.08)
-					(name "RESET"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -10.16 0)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "D9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -2.54 180)
-					(length 5.08)
-					(name "D7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "D6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "D5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "D3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 7.62 180)
-					(length 5.08)
-					(name "D2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 15.24 180)
-					(length 5.08)
-					(name "TX"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 12.7 180)
-					(length 5.08)
-					(name "RX"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "D10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 20.32 180)
-					(length 5.08)
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -10.16 180)
-					(length 5.08)
-					(name "D11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -12.7 180)
-					(length 5.08)
-					(name "D12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -15.24 180)
-					(length 5.08)
-					(name "D13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "A0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "A1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "A2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "A3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "A4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -10.16 0)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 17.78 -20.32 180)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -22.86 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 17.78 20.32 180)
-					(length 5.08)
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 17.78 22.86 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -22.86 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 15.24 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -17.78 -15.24 0)
-					(length 5.08)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -17.78 0)
-					(length 5.08)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 -20.32 0)
-					(length 5.08)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "DFR0654_1_0"
-				(pin power_in line
-					(at 17.78 -22.86 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "DFR0654_1_1"
-				(pin power_in line
-					(at 17.78 17.78 180)
-					(length 5.08)
-					(name "VUSB"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2470,132 +1677,20 @@
 		(uuid "ec1069c4-6b7d-457e-a55c-d620cc85f200")
 	)
 	(no_connect
-		(at 337.82 35.56)
-		(uuid "070cd0e6-2847-4eec-a2b8-6c2daa979533")
-	)
-	(no_connect
-		(at 337.82 60.96)
-		(uuid "0be09405-d6b1-463d-a1dc-72f4fec1030a")
-	)
-	(no_connect
-		(at 337.82 48.26)
-		(uuid "1016f042-c759-4047-99fd-40bf93abc31b")
-	)
-	(no_connect
-		(at 337.82 68.58)
-		(uuid "15769957-c080-483f-91dd-0add0c4f450d")
-	)
-	(no_connect
-		(at 302.26 63.5)
-		(uuid "1df032c5-d649-426c-bb74-55065493764b")
-	)
-	(no_connect
-		(at 302.26 53.34)
-		(uuid "274915aa-1b12-4118-9cd0-6f2592baaaeb")
-	)
-	(no_connect
-		(at 302.26 40.64)
-		(uuid "2bfad117-fa35-4847-ad48-e39fbe871ff8")
-	)
-	(no_connect
 		(at 147.32 160.02)
 		(uuid "31264fae-9a68-40e6-a3f2-5ea349c503c5")
-	)
-	(no_connect
-		(at 337.82 71.12)
-		(uuid "342136b9-6cbd-4cc1-b039-4d4acd3c180f")
-	)
-	(no_connect
-		(at 337.82 50.8)
-		(uuid "3ef84e37-c033-41ce-b36c-b3d2fc2ba8bd")
-	)
-	(no_connect
-		(at 302.26 58.42)
-		(uuid "4c2e3bbd-a9f3-4e59-bd92-2ef3039766fc")
-	)
-	(no_connect
-		(at 302.26 43.18)
-		(uuid "5087c3b8-bb15-470e-90ce-bb5edf5cd0f2")
-	)
-	(no_connect
-		(at 337.82 43.18)
-		(uuid "55333a01-e645-4e8a-857b-28b7d14ca43f")
 	)
 	(no_connect
 		(at 116.84 165.1)
 		(uuid "6067afcf-ca33-4ecd-95c8-0181050f01c8")
 	)
 	(no_connect
-		(at 337.82 78.74)
-		(uuid "6c57d62a-19ff-4b99-b1fa-ee3125cc09e3")
-	)
-	(no_connect
-		(at 302.26 73.66)
-		(uuid "772683f3-35af-40cb-b264-13483f8f5905")
-	)
-	(no_connect
-		(at 302.26 48.26)
-		(uuid "85224be8-a966-46aa-9fd4-028329851fc2")
-	)
-	(no_connect
-		(at 302.26 50.8)
-		(uuid "888908ae-eb6f-4399-8cac-65b8e2ad5a63")
-	)
-	(no_connect
-		(at 337.82 63.5)
-		(uuid "8f015d67-3b78-44fc-a8bb-b8a5d2420ce8")
-	)
-	(no_connect
-		(at 302.26 55.88)
-		(uuid "9fc092cd-3d4c-4fa4-9eed-d4f70d89c746")
-	)
-	(no_connect
-		(at 337.82 66.04)
-		(uuid "a47444f8-2ae3-4a9a-b5e3-720faf63ba4b")
-	)
-	(no_connect
 		(at 134.62 179.07)
 		(uuid "a559322a-12a2-4d69-8569-98f1a1222e7a")
 	)
 	(no_connect
-		(at 302.26 76.2)
-		(uuid "a9c9d53e-f287-4522-925b-fb3b344bd35e")
-	)
-	(no_connect
-		(at 337.82 53.34)
-		(uuid "ab0dbc84-a42c-45a4-ad67-aed4950a604a")
-	)
-	(no_connect
-		(at 337.82 33.02)
-		(uuid "af28ae96-176b-4e76-9625-a11d07434554")
-	)
-	(no_connect
-		(at 302.26 71.12)
-		(uuid "b94e80ce-fff3-488e-b33c-b92b43171fb5")
-	)
-	(no_connect
 		(at 116.84 162.56)
 		(uuid "c7cdf366-9817-4c33-9559-088b89591c80")
-	)
-	(no_connect
-		(at 337.82 58.42)
-		(uuid "cf0d7873-e097-46df-b436-6d6fc398babc")
-	)
-	(no_connect
-		(at 337.82 40.64)
-		(uuid "d5d63fea-83b1-46b2-8fd4-3a955d6d36e1")
-	)
-	(no_connect
-		(at 337.82 38.1)
-		(uuid "da80d091-cf46-431c-8b32-1c491a7dc8d4")
-	)
-	(no_connect
-		(at 302.26 66.04)
-		(uuid "dbc37e26-d67c-46ba-86f8-736fa3a529a8")
-	)
-	(no_connect
-		(at 337.82 55.88)
-		(uuid "df8389d6-1ee2-4e66-9740-28174d28ca13")
 	)
 	(no_connect
 		(at 147.32 162.56)
@@ -3406,7 +2501,7 @@
 	)
 	(text "ESP module"
 		(exclude_from_sim no)
-		(at 219.456 18.034 0)
+		(at 208.28 17.78 0)
 		(effects
 			(font
 				(size 3 3)
@@ -4026,7 +3121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 147.6248 167.64 0)
 			(effects
 				(font
@@ -4035,7 +3130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 148.59 171.45 0)
 			(effects
 				(font
@@ -4045,6 +3140,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 148.59 171.45 0)
 			(effects
 				(font
@@ -4114,6 +3218,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 143.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 143.51 109.22 0)
 			(effects
 				(font
@@ -4303,7 +3416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE2K00?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVr3bVQ0UuJPQ%3D"
 			(at 203.2 135.89 0)
 			(effects
 				(font
@@ -4313,6 +3426,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 203.2 135.89 0)
 			(effects
 				(font
@@ -4371,7 +3493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/YAGEO/RT0603FRE1356KL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHDekpqaeRKixQ%3D"
 			(at 257.81 137.16 0)
 			(effects
 				(font
@@ -4381,6 +3503,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 257.81 137.16 0)
 			(effects
 				(font
@@ -4441,7 +3572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TDK_DS_000577_ICM_45686.pdf?_gl=1*1pexwtd*_gcl_aw*R0NMLjE3NTM5NzIzNzYuQ2owS0NRanctWkhFQmhDeEFSSXNBR0dOOTZMVmRJRzVNczVyNGVkZ0pFcklhc2JCNFItOEdaUlQ2cHNkMEg4ak9KVFZHbmtGWnB4WjZ0VWFBa01QRUFMd193Y0I.*_gcl_au*MTMzNTAwNDMyMy4xNzUxNzExMjIxLjE0MzUwOTM0MDcuMTc1MzUyMDE5OC4xNzUzNTIyMDQ2*_ga*MzYxOTUzNTk1LjE3NDM4NzE3MjA.*_ga_15W4STQT4T*czE3NTM5NzIzNzYkbzc3JGcxJHQxNzUzOTcyMzkyJGo0NCRsMCRoMA.."
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/TDK-InvenSense/ICM-45686?qs=vvQtp7zwQdPk96IFOwypvQ%3D%3D"
 			(at 132.08 163.83 0)
 			(effects
 				(font
@@ -4451,6 +3582,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 132.08 163.83 0)
 			(effects
 				(font
@@ -4547,7 +3687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE2K00?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVr3bVQ0UuJPQ%3D"
 			(at 215.9 135.89 0)
 			(effects
 				(font
@@ -4557,6 +3697,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 215.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 215.9 135.89 0)
 			(effects
 				(font
@@ -4617,7 +3766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE2K00?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVr3bVQ0UuJPQ%3D"
 			(at 190.5 135.89 0)
 			(effects
 				(font
@@ -4627,6 +3776,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 190.5 135.89 0)
 			(effects
 				(font
@@ -4684,7 +3842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVDBbNntjsT8g%3D"
 			(at 44.45 160.02 0)
 			(effects
 				(font
@@ -4694,6 +3852,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 44.45 160.02 0)
 			(effects
 				(font
@@ -4811,7 +3978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 81.5848 162.56 0)
 			(effects
 				(font
@@ -4820,7 +3987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 82.55 166.37 0)
 			(effects
 				(font
@@ -4830,6 +3997,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 82.55 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 82.55 166.37 0)
 			(effects
 				(font
@@ -4907,6 +4083,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 269.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7be223d3-89ed-47a6-876d-187808a9c1fb")
 		)
@@ -4965,6 +4150,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 143.51 106.68 0)
 			(effects
 				(font
@@ -5039,6 +4233,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 275.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d7f1dd4-d4e7-44b4-8dd9-ebb5bb05bd1a")
 		)
@@ -5096,6 +4299,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 215.9 147.32 0)
 			(effects
 				(font
@@ -5176,6 +4388,15 @@
 		(property "‘%V’" "GND"
 			(at 262.89 35.56 90)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 262.89 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,6 +4602,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 236.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e76f0b76-4a27-4963-896e-ce428f3fa022")
 		)
@@ -5438,6 +4668,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 114.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 114.3 167.64 0)
 			(effects
 				(font
@@ -5569,6 +4808,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 203.2 147.32 0)
 			(effects
 				(font
@@ -5824,7 +5072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVDBbNntjsT8g%3D"
 			(at 40.64 160.02 0)
 			(effects
 				(font
@@ -5834,6 +5082,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 40.64 160.02 0)
 			(effects
 				(font
@@ -6074,7 +5331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JFV"
+		(property "Value" "*W25Q128JFV"
 			(at 68.834 156.21 0)
 			(effects
 				(font
@@ -6102,6 +5359,15 @@
 			)
 		)
 		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+			(at 68.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 68.58 167.64 0)
 			(effects
 				(font
@@ -6379,7 +5645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Advanced-Photonix/NSL-A95009?qs=bN4HulGPsrFiPKCG00Gu7g%3D%3D"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Advanced-Photonix/NSL-A95011?qs=bN4HulGPsrEDcGAVpoSWGA%3D%3D"
 			(at 257.81 151.13 0)
 			(effects
 				(font
@@ -6389,6 +5655,15 @@
 			)
 		)
 		(property "Description" "Photoresistor"
+			(at 257.81 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 257.81 149.86 0)
 			(effects
 				(font
@@ -6465,6 +5740,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 190.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1265820c-808d-428f-a46a-e6b5dbb61bb8")
 		)
@@ -6508,7 +5792,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 118.4148 179.07 0)
 			(effects
 				(font
@@ -6517,7 +5801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 119.38 182.88 0)
 			(effects
 				(font
@@ -6527,6 +5811,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 119.38 182.88 0)
 			(effects
 				(font
@@ -6671,6 +5964,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6e7ae57-a04b-4273-a25d-a2d70b4ace5c")
 		)
@@ -6678,282 +5980,6 @@
 			(project "gps"
 				(path "/00526ddc-5304-4072-af1e-192a9e7e83da"
 					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DFR0654:DFR0654")
-		(at 320.04 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "fb18f80b-3654-4561-bef6-bf202ac28386")
-		(property "Reference" "U101"
-			(at 320.04 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DFR0654"
-			(at 320.04 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DFR0654:DFR0654_2"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wiki.dfrobot.com/FireBeetle_Board_ESP32_E_SKU_DFR0654"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESP32 ESP32-E Transceiver; 802.11 b/g/n/d/e/i/k/r (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) 2.4GHz ~ 2.5GHz Evaluation Board"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "DFRobot"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DFR0654/DFRobot/view-part/?ref=eda"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DFR0654/DFRobot/view-part/?ref=snap"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "DFR0654"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6027324&manufacturer=DFRobot&part_name=DFR0654&search_term=None"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "DFRobot"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nESP32 ESP32-E Transceiver; 802.11 b/g/n/d/e/i/k/r (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) 2.4GHz ~ 2.5GHz Evaluation Board\n"
-			(at 320.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4fecac2-321c-4a3d-8708-f827e8e22e89")
-		)
-		(pin "10"
-			(uuid "f5ae95c8-66b9-4022-910a-912e636ec8c4")
-		)
-		(pin "11"
-			(uuid "7ab935c9-4404-4c24-ac0f-fe435f8f5f2f")
-		)
-		(pin "12"
-			(uuid "eac492d2-d22d-4925-b737-912549cd07e4")
-		)
-		(pin "13"
-			(uuid "a94d7215-36e1-4db7-8235-f02d8faeebc2")
-		)
-		(pin "14"
-			(uuid "55c33602-299b-4ae4-991b-ddcba184301b")
-		)
-		(pin "15"
-			(uuid "80017318-b7b8-4227-abc8-0a4d15c67b4f")
-		)
-		(pin "16"
-			(uuid "22dfda6c-d201-4784-bf40-9319ed9c7594")
-		)
-		(pin "17"
-			(uuid "6e8da23f-75d5-44ca-a2bd-9919870a6a82")
-		)
-		(pin "18"
-			(uuid "6ab15c80-8868-4d07-9395-9d8fd44cbb83")
-		)
-		(pin "19"
-			(uuid "06c83782-d525-4e15-99a7-c6039375ff34")
-		)
-		(pin "2"
-			(uuid "95026bd3-fe2c-45cf-8a46-66892fd82b61")
-		)
-		(pin "20"
-			(uuid "3c42dd6d-1cde-4ca0-a9e4-1c19a2521f33")
-		)
-		(pin "21"
-			(uuid "74190f9d-796f-4bd9-96fc-b57b52d85bd8")
-		)
-		(pin "22"
-			(uuid "16dc3efc-cec8-4818-b991-481961bb17ee")
-		)
-		(pin "23"
-			(uuid "d6b5f4c1-db00-483c-a0e0-6a8f77a87c8d")
-		)
-		(pin "24"
-			(uuid "3722e0bd-b192-46a5-9b85-fb0a0fe6f317")
-		)
-		(pin "25"
-			(uuid "51896d3c-c67d-4044-b4e0-e9999595ed7b")
-		)
-		(pin "26"
-			(uuid "a089c9b5-30c1-49d4-8b99-97b05cda273d")
-		)
-		(pin "27"
-			(uuid "623f630a-395b-4723-a113-cab306c9bb83")
-		)
-		(pin "28"
-			(uuid "008bc862-c0fd-4adc-a197-818f5631bd77")
-		)
-		(pin "29"
-			(uuid "71c54767-a03b-43ac-b450-387fa2e58654")
-		)
-		(pin "3"
-			(uuid "9ff2ec82-08b7-4b92-9fa6-7dd672a4473b")
-		)
-		(pin "30"
-			(uuid "3f149471-b762-4fb7-b3e0-6510a6b933cf")
-		)
-		(pin "31"
-			(uuid "186ff748-68a5-48fa-9d75-1bd04b96e0fe")
-		)
-		(pin "32"
-			(uuid "aa071f42-30b8-4ce9-9b2a-e0c40127b313")
-		)
-		(pin "4"
-			(uuid "88728adf-c712-431a-a777-ff2f393d3d8c")
-		)
-		(pin "5"
-			(uuid "3cc4f607-7982-4830-a74e-a8755627f921")
-		)
-		(pin "6"
-			(uuid "66b23672-8b22-44a5-afdb-3f975127f951")
-		)
-		(pin "7"
-			(uuid "b6819f84-4e01-442b-8db4-924c380dd48b")
-		)
-		(pin "8"
-			(uuid "a46e55a1-f90e-44cd-964e-e313d8be8708")
-		)
-		(pin "9"
-			(uuid "5130ea35-f666-4fa2-aa94-10c75ab4a732")
-		)
-		(pin "33"
-			(uuid "240a29e0-d304-451e-aef6-90f16ffa8952")
-		)
-		(pin "34"
-			(uuid "b31e257a-be55-4dca-915c-8f8dad0d7edf")
-		)
-		(instances
-			(project "gps"
-				(path "/00526ddc-5304-4072-af1e-192a9e7e83da"
-					(reference "U101")
 					(unit 1)
 				)
 			)

@@ -1186,7 +1186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVDBbNntjsT8g%3D"
 			(at 168.91 99.06 0)
 			(effects
 				(font
@@ -1196,6 +1196,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 168.91 99.06 0)
 			(effects
 				(font
@@ -1253,7 +1262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Vishay/TNPW0603200KBEEA?qs=sGAEpiMZZMtlubZbdhIBIGj%252BoYMmnMAlcFBCoPAeJRM%3D"
 			(at 149.86 78.74 0)
 			(effects
 				(font
@@ -1263,6 +1272,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 149.86 78.74 0)
 			(effects
 				(font
@@ -1322,7 +1340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVDBbNntjsT8g%3D"
 			(at 128.27 99.06 0)
 			(effects
 				(font
@@ -1332,6 +1350,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 128.27 99.06 0)
 			(effects
 				(font
@@ -1391,7 +1418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVDBbNntjsT8g%3D"
 			(at 114.3 99.06 0)
 			(effects
 				(font
@@ -1401,6 +1428,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 114.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 114.3 99.06 0)
 			(effects
 				(font
@@ -1442,7 +1478,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TCA39306DDFR"
+		(property "Value" "*TCA39306DDFR"
 			(at 149.606 115.062 0)
 			(effects
 				(font
@@ -1470,6 +1506,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 147.32 102.87 0)
 			(effects
 				(font
@@ -1547,7 +1592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVDBbNntjsT8g%3D"
 			(at 181.61 99.06 0)
 			(effects
 				(font
@@ -1557,6 +1602,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 181.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 181.61 99.06 0)
 			(effects
 				(font
@@ -1608,7 +1662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 160.3248 86.36 0)
 			(effects
 				(font
@@ -1617,7 +1671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 161.29 90.17 0)
 			(effects
 				(font
@@ -1627,6 +1681,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 161.29 90.17 0)
 			(effects
 				(font

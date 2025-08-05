@@ -2637,7 +2637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/295/MSN_SlidesNonillum_DP-3450118.pdf"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/NKK-Switches/MSN22AFW01?qs=17ckDYBRdekMA74MgiBP6g%3D%3D"
 			(at 250.19 113.03 0)
 			(effects
 				(font
@@ -2647,6 +2647,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 250.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 250.19 105.41 0)
 			(effects
 				(font
@@ -2691,7 +2700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 96.774 85.344 0)
 			(effects
 				(font
@@ -2709,7 +2718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/KYOCERA-AVX/0603ZD226MAT2A?qs=sSYV1F9c5cE%2FKdrrBmQkqw%3D%3D"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -2719,6 +2728,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -2788,6 +2806,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 172.72 113.03 0)
 			(effects
 				(font
@@ -3091,7 +3118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 41.91 118.1099 0)
 			(effects
 				(font
@@ -3109,7 +3136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/TDK/C1608X7T1A106M080AC?qs=Vi0JKjFBtYk5DbkZB9qYvg%3D%3D"
 			(at 38.1 116.84 0)
 			(effects
 				(font
@@ -3119,6 +3146,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 38.1 116.84 0)
 			(effects
 				(font
@@ -3161,7 +3197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 116.84 135.8899 0)
 			(effects
 				(font
@@ -3179,7 +3215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/TDK/C1608X7T1A106M080AC?qs=Vi0JKjFBtYk5DbkZB9qYvg%3D%3D"
 			(at 113.03 134.62 0)
 			(effects
 				(font
@@ -3189,6 +3225,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 113.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 113.03 134.62 0)
 			(effects
 				(font
@@ -3230,7 +3275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 106.172 120.65 0)
 			(effects
 				(font
@@ -3248,7 +3293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/TDK/C1608X7T1A106M080AC?qs=Vi0JKjFBtYk5DbkZB9qYvg%3D%3D"
 			(at 102.87 119.38 0)
 			(effects
 				(font
@@ -3258,6 +3303,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 102.87 119.38 0)
 			(effects
 				(font
@@ -3315,7 +3369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Vishay/TNPW0603200KBEEA?qs=sGAEpiMZZMtlubZbdhIBIGj%252BoYMmnMAlcFBCoPAeJRM%3D"
 			(at 161.29 127 0)
 			(effects
 				(font
@@ -3325,6 +3379,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 161.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 161.29 127 0)
 			(effects
 				(font
@@ -3580,7 +3643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Panasonic/ERJ-3BWFR033V?qs=sGAEpiMZZMtlubZbdhIBIJiMSTY83nT449kSowMmRi4%3D"
 			(at 161.29 93.98 0)
 			(effects
 				(font
@@ -3590,6 +3653,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 161.29 93.98 0)
 			(effects
 				(font
@@ -3779,7 +3851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVDBbNntjsT8g%3D"
 			(at 27.94 96.52 0)
 			(effects
 				(font
@@ -3789,6 +3861,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 27.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 27.94 96.52 0)
 			(effects
 				(font
@@ -3830,7 +3911,7 @@
 				)
 			)
 		)
-		(property "Value" "IP5306"
+		(property "Value" "*IP5306"
 			(at 73.66 90.17 0)
 			(effects
 				(font
@@ -3986,6 +4067,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 73.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "43e82956-d934-481f-99e4-81a390646808")
 		)
@@ -4058,7 +4148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stc3100.pdf"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/STMicroelectronics/STC3100IST?qs=%252Bdca5BPy8l70HzJePqv0Qg%3D%3D"
 			(at 190.5 113.03 0)
 			(effects
 				(font
@@ -4216,6 +4306,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 190.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "c6e82ac2-104d-490b-bcfa-a3e7dcfa4942")
 		)
@@ -4283,7 +4382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Vishay/CRCW06032R00JNTA?qs=sGAEpiMZZMtlubZbdhIBILfEKT4KffRAfwZGSgeRkIw%3D"
 			(at 113.03 127 0)
 			(effects
 				(font
@@ -4293,6 +4392,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 113.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 113.03 127 0)
 			(effects
 				(font
@@ -4436,6 +4544,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 104.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e63372f4-b1ed-47b0-afb3-a8e193b0049a")
 		)
@@ -4466,7 +4583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 204.47 111.76 0)
 			(effects
 				(font
@@ -4484,7 +4601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 212.09 110.49 0)
 			(effects
 				(font
@@ -4494,6 +4611,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 212.09 110.49 0)
 			(effects
 				(font
@@ -4535,7 +4661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "*10uF"
 			(at 102.362 85.344 0)
 			(effects
 				(font
@@ -4553,7 +4679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 109.22 86.36 0)
 			(effects
 				(font
@@ -4563,6 +4689,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 109.22 86.36 0)
 			(effects
 				(font
@@ -4671,7 +4806,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 54.61 110.4899 0)
 			(effects
 				(font
@@ -4689,7 +4824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/TDK/C1608X7T1A106M080AC?qs=Vi0JKjFBtYk5DbkZB9qYvg%3D%3D"
 			(at 50.8 109.22 0)
 			(effects
 				(font
@@ -4699,6 +4834,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 50.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 50.8 109.22 0)
 			(effects
 				(font
@@ -4741,7 +4885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "470uF"
 			(at 123.19 86.7409 0)
 			(effects
 				(font
@@ -4769,6 +4913,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -4810,7 +4963,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 231.14 107.95 0)
 			(effects
 				(font
@@ -4828,7 +4981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 228.6 106.68 0)
 			(effects
 				(font
@@ -4838,6 +4991,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 228.6 106.68 0)
 			(effects
 				(font
@@ -4878,7 +5040,7 @@
 				)
 			)
 		)
-		(property "Value" "1uH"
+		(property "Value" "*1uH"
 			(at 94.996 111.506 90)
 			(effects
 				(font
@@ -4905,6 +5067,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 95.25 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 95.25 110.49 0)
 			(effects
 				(font
@@ -5180,6 +5351,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 265.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b67ff90-2097-4018-bcb4-2751fa61d175")
 		)
@@ -5295,7 +5475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Vishay/CRCW06032R00JNTA?qs=sGAEpiMZZMtlubZbdhIBILfEKT4KffRAfwZGSgeRkIw%3D"
 			(at 38.1 109.22 0)
 			(effects
 				(font
@@ -5305,6 +5485,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 38.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 38.1 109.22 0)
 			(effects
 				(font

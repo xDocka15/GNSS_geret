@@ -3583,7 +3583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Murata-Electronics/LQG15HS27NG02D?qs=d0WKAl%252BL4KbSxh2r%2Fhe7ig%3D%3D"
 			(at 179.07 104.14 0)
 			(effects
 				(font
@@ -3593,6 +3593,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 179.07 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 179.07 104.14 0)
 			(effects
 				(font
@@ -3721,7 +3730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D"
 			(at 87.63 102.235 0)
 			(effects
 				(font
@@ -3732,6 +3741,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 86.36 93.98 0)
 			(effects
 				(font
@@ -3821,6 +3839,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f94b7340-7585-4728-859a-79fa3ce35f91")
 		)
@@ -3870,7 +3897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/TAIYO-YUDEN/MAJCT168BB7105MTEA01?qs=ZcfC38r4PotuS6MgLmtX7A%3D%3D"
 			(at 163.83 66.04 0)
 			(effects
 				(font
@@ -3880,6 +3907,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 163.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 163.83 66.04 0)
 			(effects
 				(font
@@ -4072,7 +4108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Taoglas/PCBSMAFRAHT?qs=RuW%2Fu%252BNMQmubIFYcN8w5Dw%3D%3D&mgh=1&utm_id=20233080446&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=20233099895&gbraid=0AAAAADn_wf1mWtjLE4a_0dNs1qHbugm4y&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEZn-SykdQloeQqUWGMBdWb9HChtoLlFsgV0SERtX0LgUwmCsr2lQ1waAiK5EALw_wcB"
 			(at 209.55 88.9 0)
 			(effects
 				(font
@@ -4082,6 +4118,15 @@
 			)
 		)
 		(property "Description" "Antenna with extra pin for shielding"
+			(at 209.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 209.55 91.44 0)
 			(effects
 				(font
@@ -4142,7 +4187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/TAIYO-YUDEN/MAJCT168BB7105MTEA01?qs=ZcfC38r4PotuS6MgLmtX7A%3D%3D"
 			(at 124.46 77.47 0)
 			(effects
 				(font
@@ -4152,6 +4197,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 124.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 124.46 77.47 0)
 			(effects
 				(font
@@ -4278,7 +4332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Wurth-Elektronik/636101112001?qs=iLbezkQI%252BshOHZpPZv%252BznA%3D%3D&mgh=1&utm_id=20233080446&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=20233099895&gbraid=0AAAAADn_wf1mWtjLE4a_0dNs1qHbugm4y&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEbAXKSMiM8PIGinrVoNUTtwBZcT9SeC7vJE1Ug8STwrMHge5dS1ieAaAhgVEALw_wcB"
 			(at 189.23 88.9 0)
 			(effects
 				(font
@@ -4288,6 +4342,15 @@
 			)
 		)
 		(property "Description" "Antenna with extra pin for shielding"
+			(at 189.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -4480,7 +4543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Vishay/CRCW06030000Z0EI?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FG0ZM4rsijxcU%3D"
 			(at 139.7 73.66 0)
 			(effects
 				(font
@@ -4490,6 +4553,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 139.7 73.66 0)
 			(effects
 				(font
@@ -4633,6 +4705,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae82c7dc-affa-466e-baeb-9f1e08d98530")
 		)
@@ -4664,7 +4745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NEO-M9N"
+		(property "Value" "*NEO-M9N"
 			(at 141.8941 133.35 0)
 			(effects
 				(font
@@ -4701,6 +4782,15 @@
 			)
 		)
 		(property "Integration manual" "https://content.u-blox.com/sites/default/files/NEO-M9N_Integrationmanual_UBX-19014286.pdf"
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -5074,7 +5164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "*10uF"
 			(at 154.94 66.4209 0)
 			(effects
 				(font
@@ -5092,7 +5182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 151.13 66.04 0)
 			(effects
 				(font
@@ -5102,6 +5192,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 151.13 66.04 0)
 			(effects
 				(font
@@ -5264,6 +5363,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f84d394-8b88-423f-b2a7-0f8a328dea55")
 		)
@@ -5297,7 +5405,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_B_Micro"
+		(property "Value" "*USB_B_Micro"
 			(at 57.15 83.82 0)
 			(effects
 				(font
@@ -5314,7 +5422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/837/USB3145-2888215.pdf"
+		(property "Datasheet" ""
 			(at 60.96 95.25 0)
 			(effects
 				(font
@@ -5324,6 +5432,15 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 57.15 93.98 0)
 			(effects
 				(font
@@ -5509,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 172.72 95.25 90)
 			(effects
 				(font
@@ -5526,7 +5643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/KYOCERA-AVX/KAM21BR71H103KT?qs=OcgtsXO%252B3gswRpZaaXH9DQ%3D%3D"
 			(at 172.72 100.33 0)
 			(effects
 				(font
@@ -5536,6 +5653,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 172.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 172.72 100.33 0)
 			(effects
 				(font
@@ -5679,6 +5805,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45ef1a16-9765-4eeb-82c4-cee0ba44a5b5")
 		)
@@ -5746,6 +5881,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec9e0254-5913-4016-9fbe-8757e311829b")
 		)
@@ -5798,7 +5942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030C1009FP500?qs=sGAEpiMZZMtlubZbdhIBIOZdEduus70kc745foTe5h0%3D"
 			(at 179.07 92.71 0)
 			(effects
 				(font
@@ -5808,6 +5952,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 179.07 92.71 0)
 			(effects
 				(font

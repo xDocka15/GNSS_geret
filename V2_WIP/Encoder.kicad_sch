@@ -1324,7 +1324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVDBbNntjsT8g%3D"
 			(at 161.29 80.01 0)
 			(effects
 				(font
@@ -1334,6 +1334,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 161.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 161.29 80.01 0)
 			(effects
 				(font
@@ -1374,7 +1383,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 173.99 91.694 90)
 			(effects
 				(font
@@ -1391,7 +1400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE2K00?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVr3bVQ0UuJPQ%3D"
 			(at 173.99 86.36 0)
 			(effects
 				(font
@@ -1401,6 +1410,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 173.99 86.36 0)
 			(effects
 				(font
@@ -1470,6 +1488,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 96.52 80.01 0)
 			(effects
 				(font
@@ -1574,7 +1601,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "1nF"
 			(at 118.364 102.87 0)
 			(effects
 				(font
@@ -1592,7 +1619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/KYOCERA-AVX/06031A102JAT2A?qs=%252BdQmOuGyFcGHJqs3Zmdykg%3D%3D"
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -1602,6 +1629,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -1709,7 +1745,7 @@
 				)
 			)
 		)
-		(property "Value" "RotaryEncoder"
+		(property "Value" "*RotaryEncoder"
 			(at 146.05 81.28 0)
 			(effects
 				(font
@@ -1736,6 +1772,15 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 146.05 88.9 0)
 			(effects
 				(font
@@ -1802,7 +1847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030D4709BP500?qs=sGAEpiMZZMtlubZbdhIBIOF8iwLVxXp6Oa2rPEx3MVU%3D"
 			(at 129.54 80.01 0)
 			(effects
 				(font
@@ -1812,6 +1857,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 129.54 80.01 0)
 			(effects
 				(font
@@ -1881,6 +1935,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 96.52 97.79 0)
 			(effects
 				(font
@@ -2000,7 +2063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVDBbNntjsT8g%3D"
 			(at 106.68 93.98 0)
 			(effects
 				(font
@@ -2010,6 +2073,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 106.68 93.98 0)
 			(effects
 				(font
@@ -2051,7 +2123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "1nF"
 			(at 118.872 85.09 0)
 			(effects
 				(font
@@ -2069,7 +2141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/KYOCERA-AVX/06031A102JAT2A?qs=%252BdQmOuGyFcGHJqs3Zmdykg%3D%3D"
 			(at 115.57 83.82 0)
 			(effects
 				(font
@@ -2079,6 +2151,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 115.57 83.82 0)
 			(effects
 				(font
@@ -2202,7 +2283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVDBbNntjsT8g%3D"
 			(at 106.68 73.66 0)
 			(effects
 				(font
@@ -2212,6 +2293,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 106.68 73.66 0)
 			(effects
 				(font
@@ -2269,7 +2359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030D4709BP500?qs=sGAEpiMZZMtlubZbdhIBIOF8iwLVxXp6Oa2rPEx3MVU%3D"
 			(at 129.54 97.79 0)
 			(effects
 				(font
@@ -2279,6 +2369,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 129.54 97.79 0)
 			(effects
 				(font
@@ -2321,7 +2420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 191.77 91.4399 0)
 			(effects
 				(font
@@ -2339,7 +2438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/KYOCERA-AVX/0603ZG104ZAT2A?qs=XWDBCzcA0Tke70DI9cEVbA%3D%3D"
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -2349,6 +2448,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 187.96 90.17 0)
 			(effects
 				(font
