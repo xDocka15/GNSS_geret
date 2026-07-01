@@ -158,7 +158,7 @@ Vo verzii v2024 boli na DPS/scheme identifikovane nesledujuce body na zlepsenie:
     * Tomu sa musi prisposobit aj zapojenie jednotlivych segmentov (po vzore maleho displeja).
     * \[x] TODO: vyspecifikovat zapojenie displeja.
 
-* \[ ] Pouzit USB-C konektor, zapojenie rovnake ako na FireBeetle2.
+* \[x] Pouzit USB-C konektor, zapojenie rovnake ako na FireBeetle2.
 * \[x] Ku GNSS modulu pripojit aj zalohovaciu bateriu pre RTC.
 
 
@@ -181,12 +181,12 @@ Pri navrhu DPS zohladnit nasledujuce pripomienky:
   plosku s okolitou "vyliatou" plochou, resp. s vrstvou GND. Pri rucnom pajkovani
   sa cez mensie mostiky odvadza menej tepla do susednej velkej medenej plochy
   a suciastky sa lahsie osadzuju.
-* \[ ] Popisok konektora dat dalej od samotnej suciastky (aby sa po osadeni nezakryl).
+* \[x] Popisok konektora dat dalej od samotnej suciastky (aby sa po osadeni nezakryl).
 * \[x] Zvacsit diery pre hlavny vypinac (bolo treba zbrusit z pinov).
 
   * \[x] TODO: diery pre kontakty alebo upevnovacie diery?
 
-* \[ ] Mensie diery pre kolikove konektory (ak budu pouzite, boli volne a dali sa osadit krivo :)
+* \[x] Mensie diery pre kolikove konektory (ak budu pouzite, boli volne a dali sa osadit krivo :)
 * \[x] Doplnit popisky ku test-padom "TPx" aby sa dali lahsie sparovat so schemou.
 * \[ ] Pri vyrobe pouzit ciernu farbu plosaku, nie zelenu. Cierne pozadie zlepsi
   citatelnost 7-seg displejov.
