@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPT3001DNPR
+D Digital Ambient Light Sensor (ALS) With High-Precision Human-Eye Response  
+K
+F http://www.ti.com/lit/gpn/opt3001
+$ENDCMP
+#
+#End Doc Library

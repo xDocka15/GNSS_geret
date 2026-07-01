@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=629105150521
+PartCategory=Connector
+PackageCategory=Other
+PinCount=9
+Version=5.5
+Released=2023-03-14 11:55:00
+Downloaded=2026-06-26 15:21:04
+3D=Y
