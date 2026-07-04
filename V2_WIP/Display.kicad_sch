@@ -3532,6 +3532,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 187.96) (xy 161.29 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756aed05-043e-4108-8a75-1d9aaeff60bd")
+	)
+	(wire
+		(pts
 			(xy 116.84 64.77) (xy 124.46 64.77)
 		)
 		(stroke
@@ -4352,6 +4362,17 @@
 		)
 		(uuid "37d3aeb3-6a7b-427d-b6d4-0e4228180d8e")
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 165.1 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b9f3800-06c6-4d8c-9285-17e70cee29a4")
+	)
 	(hierarchical_label "RGB_DATA"
 		(shape input)
 		(at 191.77 144.78 180)
@@ -4709,7 +4730,7 @@
 				)
 			)
 		)
-		(property "Value" "*LTC-4724JF"
+		(property "Value" "LTC-4724JF"
 			(at 100.33 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,7 +4740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:LTC4724JF"
+		(property "Footprint" "KiCad:LTC4724JF"
 			(at 134.62 230.81 0)
 			(hide yes)
 			(show_name no)
@@ -5369,6 +5390,85 @@
 			(project "gps"
 				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/944a09ba-484a-42c8-9e47-79436575a39f"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 161.29 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "520fe8a2-e916-4ddc-8451-f54132213b8a")
+		(property "Reference" "#PWR0429"
+			(at 165.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 157.48 187.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 161.29 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9ef687f-0ba8-486c-8cea-0442457a04f0")
+		)
+		(instances
+			(project "gps"
+				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/944a09ba-484a-42c8-9e47-79436575a39f"
+					(reference "#PWR0429")
 					(unit 1)
 				)
 			)

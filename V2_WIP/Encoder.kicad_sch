@@ -1172,6 +1172,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 190.5) (xy 166.37 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2996f0e5-8310-49d9-b33b-3b9a30e58aaa")
+	)
+	(wire
+		(pts
 			(xy 161.29 73.66) (xy 161.29 76.2)
 		)
 		(stroke
@@ -1380,6 +1390,17 @@
 			(justify right)
 		)
 		(uuid "00366322-79cc-4fd7-ab24-03ab306144e2")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 166.37 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f024962-3277-47f0-ba00-0e4a9f678e5a")
 	)
 	(hierarchical_label "CLK"
 		(shape input)
@@ -1667,6 +1688,85 @@
 			(project "gps"
 				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/793bb65f-e69c-4ef5-b9d8-1f6ded4a88fa"
 					(reference "TP701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 190.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1953a4a2-1b57-4fb2-bde8-6d389e557e0b")
+		(property "Reference" "#PWR0426"
+			(at 167.64 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 160.02 190.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b67d9f9-74ba-4cce-8822-f8cb3e2a6606")
+		)
+		(instances
+			(project "gps"
+				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/793bb65f-e69c-4ef5-b9d8-1f6ded4a88fa"
+					(reference "#PWR0426")
 					(unit 1)
 				)
 			)

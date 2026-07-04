@@ -351,7 +351,7 @@ Telefonicky konzultovane pripomienky:
 - [x] Doplnit snimac svetla na I2C zbernicu OPT3001 alebo OPT3004DTSR (package SOT-5X3)
   - umiestnit blizko fotorezistora
   - pin ADDR pripojit na GND
-- [ ] Overit, ci staci 600mA na 3V3 pre ESP aj GNSS aj ostatne obvody?
+- [x] Overit, ci staci 600mA na 3V3 pre ESP aj GNSS aj ostatne obvody?
   - Na prvom gerete bol rovnaky zdroj 600mA
   - Pribudli nove obvody (baro, flash, imu, magnetometer)
 - Vymenit nabijaci cip za USBC-PD, ktory poskytuje nabijanie 1S LiXX clanku
