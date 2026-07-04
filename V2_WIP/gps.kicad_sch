@@ -2389,17 +2389,6 @@
 		)
 		(uuid "001ae1e3-8c1b-4314-9dd5-28a1633e89d8")
 	)
-	(text "Změnit na WSON-8 8x6mm\n"
-		(exclude_from_sim no)
-		(at 45.212 188.214 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 255 0 9 1)
-			)
-		)
-		(uuid "61d771f9-d85a-4283-93a1-64747c816df6")
-	)
 	(text "FLASH"
 		(exclude_from_sim no)
 		(at 41.402 139.192 0)
@@ -8525,7 +8514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
 			(at 49.53 166.37 0)
 			(hide yes)
 			(show_name no)

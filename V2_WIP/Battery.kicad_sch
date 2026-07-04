@@ -2466,7 +2466,7 @@
 	)
 	(text "Battery connection"
 		(exclude_from_sim no)
-		(at 251.46 64.77 0)
+		(at 261.366 20.066 0)
 		(effects
 			(font
 				(size 3 3)
@@ -5189,7 +5189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+		(property "Footprint" "KiCad:SOIC65P490X110-8N"
 			(at 190.5 113.03 0)
 			(hide yes)
 			(show_name no)
