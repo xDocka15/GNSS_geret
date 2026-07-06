@@ -10501,7 +10501,7 @@
 				(justify left top)
 			)
 		)
-		(pin "TxD" output
+		(pin "TxD" input
 			(at 77.47 191.77 0)
 			(uuid "3b219e52-8326-4b08-abd2-540e5e7b6e15")
 			(effects
@@ -10511,7 +10511,7 @@
 				(justify right)
 			)
 		)
-		(pin "RxD" input
+		(pin "RxD" output
 			(at 77.47 194.31 0)
 			(uuid "238f8366-44b8-4680-a3d8-b134aaea61f8")
 			(effects

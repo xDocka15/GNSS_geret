@@ -53,8 +53,8 @@
           "45_degree_only": false,
           "border_display_style": 2,
           "border_hatch_pitch": 0.508,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 1.0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -156,7 +156,7 @@
         "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.15,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
@@ -1065,7 +1065,7 @@
         "uuid": "00526ddc-5304-4072-af1e-192a9e7e83da"
       }
     ],
-    "used_designators": "D5,D9,#PWR106,#PWR108-110,#PWR114,#PWR116,#PWR118-119,#PWR123,#PWR125,#PWR141,#PWR161,#PWR166,#PWR205,#PWR207,#PWR609,C4,C12,C205-206,Q4,R13-14,TP203,U202",
+    "used_designators": "R111,R114,TP8,#PWR167",
     "variants": []
   },
   "sheets": [

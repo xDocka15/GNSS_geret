@@ -3613,13 +3613,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 102.87) (xy 121.92 102.87)
+			(xy 110.49 102.87) (xy 111.76 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a5f889b-4b55-46db-aa81-b60714e46fba")
+		(uuid "21d94ed3-38fd-4397-94af-c1e8d6399e49")
 	)
 	(wire
 		(pts
@@ -3650,16 +3650,6 @@
 			(type default)
 		)
 		(uuid "2cb24f6d-18d9-489c-a138-f743393d698f")
-	)
-	(wire
-		(pts
-			(xy 120.65 100.33) (xy 121.92 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f50af3a-297f-4e58-a28c-6243240353eb")
 	)
 	(wire
 		(pts
@@ -3710,6 +3700,16 @@
 			(type default)
 		)
 		(uuid "5293ec12-06fa-44a8-8efb-1582fb49fa4c")
+	)
+	(wire
+		(pts
+			(xy 119.38 102.87) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56718934-a240-4bc0-a61c-164a3e8f33be")
 	)
 	(wire
 		(pts
@@ -4043,6 +4043,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 100.33) (xy 121.92 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95e3816-1fd7-4a39-94b7-183159950dfb")
+	)
+	(wire
+		(pts
 			(xy 139.7 59.69) (xy 139.7 80.01)
 		)
 		(stroke
@@ -4050,6 +4060,16 @@
 			(type default)
 		)
 		(uuid "db42e2c3-8df6-4493-9acf-721308daae44")
+	)
+	(wire
+		(pts
+			(xy 110.49 100.33) (xy 111.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5277440-7803-4f90-97a0-ba3abb4abd3d")
 	)
 	(wire
 		(pts
@@ -4172,18 +4192,18 @@
 		(uuid "c854781d-22a3-44a3-b423-9ee80889f82f")
 	)
 	(hierarchical_label "RxD"
-		(shape input)
-		(at 120.65 102.87 180)
+		(shape output)
+		(at 110.49 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4924fb86-4db1-45a4-a6d7-58bf6707afb7")
+		(uuid "10a9c52f-283c-42c1-83cd-5d41e982df18")
 	)
 	(hierarchical_label "RxD"
-		(shape input)
+		(shape output)
 		(at 83.82 120.65 0)
 		(effects
 			(font
@@ -4194,7 +4214,7 @@
 		(uuid "59e7a48d-3670-41b3-a01a-bc458621b4fc")
 	)
 	(hierarchical_label "TxD"
-		(shape output)
+		(shape input)
 		(at 83.82 115.57 0)
 		(effects
 			(font
@@ -4226,6 +4246,17 @@
 		)
 		(uuid "8ff4d264-da6f-41d7-ae5d-42e3c9f88bec")
 	)
+	(hierarchical_label "TxD"
+		(shape input)
+		(at 110.49 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9124a9ab-7bb1-4bfc-aa81-6a5a5701eff6")
+	)
 	(hierarchical_label "Pulse"
 		(shape output)
 		(at 157.48 115.57 0)
@@ -4236,17 +4267,6 @@
 			(justify left)
 		)
 		(uuid "949ff667-072e-4676-9f35-4035e80b3fb3")
-	)
-	(hierarchical_label "TxD"
-		(shape output)
-		(at 120.65 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df83bb6f-4955-4892-8406-6ad80c9b02da")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -4939,6 +4959,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 115.57 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "341000b2-798c-4d3e-aece-34c5fc795599")
+		(property "Reference" "R114"
+			(at 115.57 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 115.57 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 115.57 104.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE2K00?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVr3bVQ0UuJPQ%3D"
+			(at 115.57 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 115.57 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8441f84-3c64-4daf-9b90-42302bd369d7")
+		)
+		(pin "2"
+			(uuid "7991414f-7882-4441-9db6-1c0d80071611")
+		)
+		(instances
+			(project "gps"
+				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/5cdf5b9a-bc05-4fbb-ac1a-8c1a969964f2"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 163.83 189.23 90)
 		(unit 1)
@@ -5168,6 +5279,97 @@
 			(project "gps"
 				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/5cdf5b9a-bc05-4fbb-ac1a-8c1a969964f2"
 					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dd23f61-f31b-413e-b1b1-a2965d01156a")
+		(property "Reference" "R111"
+			(at 115.57 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 115.57 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 115.57 102.108 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/SEI-Stackpole/RNCE0603BTE2K00?qs=sGAEpiMZZMtlubZbdhIBIGfmJML7fLMVr3bVQ0UuJPQ%3D"
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d720283c-ec50-473c-8b65-8e4e4d308a22")
+		)
+		(pin "2"
+			(uuid "d2da14a6-25cf-4080-8b86-1d861018d771")
+		)
+		(instances
+			(project "gps"
+				(path "/00526ddc-5304-4072-af1e-192a9e7e83da/5cdf5b9a-bc05-4fbb-ac1a-8c1a969964f2"
+					(reference "R111")
 					(unit 1)
 				)
 			)
