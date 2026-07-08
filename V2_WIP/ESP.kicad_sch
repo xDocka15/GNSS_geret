@@ -7516,7 +7516,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "26a5479a-2ee2-477f-8fa5-174e9a66c3c5")
 		(property "Reference" "C202"

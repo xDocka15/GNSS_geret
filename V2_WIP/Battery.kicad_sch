@@ -6010,7 +6010,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c6883f3c-b6a7-422a-8cf6-44a1da6b3365")
 		(property "Reference" "C610"
 			(at 128.27 86.614 0)
