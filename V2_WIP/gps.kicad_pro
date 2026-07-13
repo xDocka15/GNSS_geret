@@ -1065,7 +1065,7 @@
         "uuid": "00526ddc-5304-4072-af1e-192a9e7e83da"
       }
     ],
-    "used_designators": "U8",
+    "used_designators": "U8,U10,R21-22,#PWR178-185,#PWR434,C17-18,TP15",
     "variants": []
   },
   "sheets": [
@@ -1116,6 +1116,10 @@
     [
       "46ed1b8c-c4af-485c-ad9a-ff95a71cab0d",
       "LDO"
+    ],
+    [
+      "178df54f-147b-49c2-84f9-0e425a0af419",
+      "MAGNETOMETER"
     ]
   ],
   "text_variables": {},

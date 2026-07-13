@@ -1961,7 +1961,7 @@
 	)
 	(text "- `0x44` Lux meter"
 		(exclude_from_sim no)
-		(at 302.006 165.608 0)
+		(at 302.006 150.368 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2004,7 +2004,7 @@
 	)
 	(text "OPT SENSOR"
 		(exclude_from_sim no)
-		(at 338.074 148.844 0)
+		(at 338.074 133.604 0)
 		(effects
 			(font
 				(size 3 3)
@@ -2012,6 +2012,17 @@
 			)
 		)
 		(uuid "325b27d8-8c8b-4d72-82da-9353915ee95a")
+	)
+	(text "MAGNETOMETER"
+		(exclude_from_sim no)
+		(at 339.344 213.106 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+			)
+		)
+		(uuid "4d38f7e8-1ccf-493a-8806-e8cdbb81a6ef")
 	)
 	(text "FOTO RESISTOR"
 		(exclude_from_sim no)
@@ -2068,7 +2079,7 @@
 	)
 	(text "- `0x46` Barometer"
 		(exclude_from_sim no)
-		(at 302.768 212.09 0)
+		(at 302.768 189.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2078,7 +2089,7 @@
 	)
 	(text "BAROMETER"
 		(exclude_from_sim no)
-		(at 338.836 193.802 0)
+		(at 338.836 172.212 0)
 		(effects
 			(font
 				(size 3 3)
@@ -2096,6 +2107,16 @@
 			)
 		)
 		(uuid "bf15e598-e188-4377-a8da-114954739f1d")
+	)
+	(text "- `0x30` Magnetometer"
+		(exclude_from_sim no)
+		(at 299.212 228.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4e97259-c336-4be2-94a1-c977de2cbc04")
 	)
 	(text "ENCODER"
 		(exclude_from_sim no)
@@ -2130,10 +2151,10 @@
 		)
 		(uuid "e71241cf-55a6-426c-8bb5-76d949d17de8")
 	)
-	(text_box "Currents\nLDO -	600.0 mA Standart\nLDO -	900.0 mA Limited\n\nESP -	500.0 mA\nOPT -	004.0 mA worst case\nBAR -	000.3 mA\nIMU -	000.5 mA\nFLA -	035.0 mA\nGPS -	100.0 mA Peak\nBAT - 	000.1 mA\n______________________\nTOTAL -	639.9 mA"
+	(text_box "Currents\nLDO -	600.0 mA Standart\nLDO -	900.0 mA Limited\n\nESP -	500.0 mA\nOPT -	004.0 mA worst case\nBAR -	000.3 mA\nIMU -	000.5 mA\nFLA -	035.0 mA\nGPS -	100.0 mA Peak\nBAT - 	000.1 mA\nMAG - 	000.5 mA worst case\n______________________\nTOTAL -	640.4 mA"
 		(exclude_from_sim no)
 		(at 172.72 251.6908 0)
-		(size 33.02 28.9792)
+		(size 36.83 32.5731)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2150,7 +2171,7 @@
 		)
 		(uuid "80ad7af2-8428-4983-bdb6-234ce9ce1dad")
 	)
-	(text_box "I2C addreses\n- `0xEA` BatteryCharger\n- `0x70` CoulombCounter\n- `0x71-7` DisplayDriver, nastavuje sa cez ROW0-2\n- `0x46` Baro\n- `0x44` Lux meter\n- `0x14` Magnetometer"
+	(text_box "I2C addreses\n- `0xEA` BatteryCharger\n- `0x70` CoulombCounter\n- `0x71-7` DisplayDriver, nastavuje sa cez ROW0-2\n- `0x46` Baro\n- `0x44` Lux meter\n- `0x30` Magnetometer"
 		(exclude_from_sim no)
 		(at 212.09 264.16 0)
 		(size 55.88 16.51)
@@ -2617,7 +2638,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 170.18) (xy 325.12 170.18)
+			(xy 314.96 154.94) (xy 325.12 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2634,6 +2655,17 @@
 			(type default)
 		)
 		(uuid "4d5b229c-1b4b-4a4b-bb14-3ac9370c62fe")
+	)
+	(polyline
+		(pts
+			(xy 254 231.14) (xy 313.69 231.14)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 7 253 255 1)
+		)
+		(uuid "4eaa95b0-c8eb-45ff-b85a-fb1fc35b4cee")
 	)
 	(wire
 		(pts
@@ -2758,7 +2790,7 @@
 	)
 	(polyline
 		(pts
-			(xy 254 214.63) (xy 312.42 214.63)
+			(xy 254 193.04) (xy 312.42 193.04)
 		)
 		(stroke
 			(width 1)
@@ -2766,6 +2798,16 @@
 			(color 7 253 255 1)
 		)
 		(uuid "6af58382-ce8a-4fe3-85d8-689623219d12")
+	)
+	(wire
+		(pts
+			(xy 323.85 224.79) (xy 326.39 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c733f0a-cb3d-491a-8cc9-b50fd03a0635")
 	)
 	(wire
 		(pts
@@ -2800,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 160.02) (xy 322.58 162.56)
+			(xy 322.58 144.78) (xy 322.58 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2942,7 +2984,7 @@
 	)
 	(polyline
 		(pts
-			(xy 254 168.91) (xy 254 214.63)
+			(xy 254 168.91) (xy 254 231.14)
 		)
 		(stroke
 			(width 1)
@@ -3066,7 +3108,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 167.64) (xy 325.12 167.64)
+			(xy 314.96 152.4) (xy 325.12 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3308,7 +3350,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 162.56) (xy 325.12 162.56)
+			(xy 322.58 147.32) (xy 325.12 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3348,6 +3390,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 222.25) (xy 323.85 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c90c12b7-b8b1-4052-8f64-254d63c9125f")
+	)
+	(wire
+		(pts
 			(xy 276.86 59.055) (xy 273.05 59.055)
 		)
 		(stroke
@@ -3378,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 207.01) (xy 326.39 207.01)
+			(xy 323.85 185.42) (xy 326.39 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3449,7 +3501,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 215.9) (xy 326.39 215.9)
+			(xy 316.23 194.31) (xy 326.39 194.31)
 		)
 		(stroke
 			(width 0)
@@ -3459,7 +3511,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 213.36) (xy 326.39 213.36)
+			(xy 316.23 191.77) (xy 326.39 191.77)
 		)
 		(stroke
 			(width 0)
@@ -3469,7 +3521,27 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 204.47) (xy 323.85 207.01)
+			(xy 316.23 229.87) (xy 326.39 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54b27c5-2bc5-43a2-a2f8-d54f47649ed6")
+	)
+	(wire
+		(pts
+			(xy 316.23 232.41) (xy 326.39 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5bdfe17-0455-40ab-97c0-f69d64629de8")
+	)
+	(wire
+		(pts
+			(xy 323.85 182.88) (xy 323.85 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3519,7 +3591,7 @@
 	)
 	(polyline
 		(pts
-			(xy 254 168.91) (xy 311.15 168.91)
+			(xy 254 153.67) (xy 311.15 153.67)
 		)
 		(stroke
 			(width 1)
@@ -7806,7 +7878,7 @@
 		(uuid "05e00dc1-68d2-4e99-ae89-65798b74eccc")
 	)
 	(label "SDA_3V3"
-		(at 314.96 167.64 0)
+		(at 314.96 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7894,6 +7966,16 @@
 			(justify left bottom)
 		)
 		(uuid "2bc8bb32-0ca5-4460-8e4b-66af69e7d117")
+	)
+	(label "SDA_3V3"
+		(at 316.23 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3270eb41-8c8a-4ab1-87f4-e4817a58abcc")
 	)
 	(label "VBATT"
 		(at 142.24 82.55 0)
@@ -7996,7 +8078,7 @@
 		(uuid "6afc4239-75ee-41f8-9063-a2996c418781")
 	)
 	(label "SCL_3V3"
-		(at 314.96 170.18 0)
+		(at 314.96 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8066,7 +8148,7 @@
 		(uuid "7c953bbe-348a-4640-bbc1-fd9505b7b366")
 	)
 	(label "SCL_3V3"
-		(at 316.23 213.36 0)
+		(at 316.23 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8246,7 +8328,7 @@
 		(uuid "ddecd7e3-ca1d-418b-872a-836dcf70426c")
 	)
 	(label "SDA_3V3"
-		(at 316.23 215.9 0)
+		(at 316.23 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8254,6 +8336,16 @@
 			(justify left bottom)
 		)
 		(uuid "e5f42e4a-c688-461f-b90e-b3f0f85d3937")
+	)
+	(label "SCL_3V3"
+		(at 316.23 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7263962-ae54-4c84-8621-4d8f20ac5c72")
 	)
 	(label "VUSB"
 		(at 87.63 184.15 180)
@@ -10937,7 +11029,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 322.58 160.02 0)
+		(at 322.58 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10948,7 +11040,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ed0e4ee-15de-4d62-a122-7a09b946ac9b")
 		(property "Reference" "#PWR0163"
-			(at 322.58 163.83 0)
+			(at 322.58 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10959,7 +11051,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 322.58 154.94 0)
+			(at 322.58 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10969,7 +11061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 160.02 0)
+			(at 322.58 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10980,7 +11072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 160.02 0)
+			(at 322.58 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10991,7 +11083,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 322.58 160.02 0)
+			(at 322.58 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11891,6 +11983,84 @@
 			(project "gps"
 				(path "/00526ddc-5304-4072-af1e-192a9e7e83da"
 					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 323.85 222.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af55f8df-df5d-4464-95ce-efd46c49157c")
+		(property "Reference" "#PWR0185"
+			(at 323.85 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 323.85 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 323.85 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "124fc5c1-29f6-4db6-8e9d-e6a7c7c291a8")
+		)
+		(instances
+			(project "gps"
+				(path "/00526ddc-5304-4072-af1e-192a9e7e83da"
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -12862,7 +13032,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 323.85 204.47 0)
+		(at 323.85 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12873,7 +13043,7 @@
 		(fields_autoplaced yes)
 		(uuid "cda1d727-0fe7-423e-98b1-48c8016e3dc5")
 		(property "Reference" "#PWR0164"
-			(at 323.85 208.28 0)
+			(at 323.85 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12884,7 +13054,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 323.85 199.39 0)
+			(at 323.85 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12894,7 +13064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 204.47 0)
+			(at 323.85 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12905,7 +13075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 204.47 0)
+			(at 323.85 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12916,7 +13086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 323.85 204.47 0)
+			(at 323.85 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13512,6 +13682,82 @@
 		)
 	)
 	(sheet
+		(at 326.39 220.98)
+		(size 26.67 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "178df54f-147b-49c2-84f9-0e425a0af419")
+		(property "Sheetname" "MAGNETOMETER"
+			(at 326.39 220.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAGNETOMETER.kicad_sch"
+			(at 326.39 238.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 326.39 224.79 180)
+			(uuid "d90de322-a6b2-4ca1-8290-822fe283a1c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 326.39 229.87 180)
+			(uuid "e26d0b0d-b749-406b-a667-09a8adc2192b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 326.39 232.41 180)
+			(uuid "04d7e682-9f8c-42e8-b011-4f6a1622b1c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "gps"
+				(path "/00526ddc-5304-4072-af1e-192a9e7e83da"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 59.69 52.07)
 		(size 15.24 15.24)
 		(exclude_from_sim no)
@@ -13896,7 +14142,7 @@
 		)
 	)
 	(sheet
-		(at 326.39 204.47)
+		(at 326.39 182.88)
 		(size 27.94 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13912,7 +14158,7 @@
 		)
 		(uuid "6280acec-0106-46ac-bcc4-6d98c426c53e")
 		(property "Sheetname" "BAROMETER"
-			(at 326.39 203.7584 0)
+			(at 326.39 182.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13923,7 +14169,7 @@
 			)
 		)
 		(property "Sheetfile" "BAROMETER.kicad_sch"
-			(at 326.39 224.1046 0)
+			(at 326.39 202.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13934,7 +14180,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 326.39 213.36 180)
+			(at 326.39 191.77 180)
 			(uuid "c53f5327-0e31-4c11-9f8e-d823f874f761")
 			(effects
 				(font
@@ -13944,7 +14190,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 326.39 215.9 180)
+			(at 326.39 194.31 180)
 			(uuid "dfb46158-78ef-4c79-81b5-5cdd4ba0d0f3")
 			(effects
 				(font
@@ -13954,7 +14200,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 326.39 207.01 180)
+			(at 326.39 185.42 180)
 			(uuid "d0d90d4e-79e6-4d42-a343-c99eb64d5afd")
 			(effects
 				(font
@@ -14496,7 +14742,7 @@
 		)
 	)
 	(sheet
-		(at 325.12 160.02)
+		(at 325.12 144.78)
 		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14512,7 +14758,7 @@
 		)
 		(uuid "d78061f0-6720-44ba-8361-b17dbd4f60e7")
 		(property "Sheetname" "OPTICAL SENSOR"
-			(at 325.12 159.3084 0)
+			(at 325.12 144.0684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14523,7 +14769,7 @@
 			)
 		)
 		(property "Sheetfile" "OPTICAL SENSOR.kicad_sch"
-			(at 325.12 175.8446 0)
+			(at 325.12 160.6046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14534,7 +14780,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 325.12 170.18 180)
+			(at 325.12 154.94 180)
 			(uuid "e6fcee23-5c26-43aa-998a-375277d6061f")
 			(effects
 				(font
@@ -14544,7 +14790,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 325.12 167.64 180)
+			(at 325.12 152.4 180)
 			(uuid "993e723b-2cd2-4430-86e9-1ea6c31d344f")
 			(effects
 				(font
@@ -14554,7 +14800,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 325.12 162.56 180)
+			(at 325.12 147.32 180)
 			(uuid "06b46e43-5dc3-4317-989f-2f15001d2e64")
 			(effects
 				(font
