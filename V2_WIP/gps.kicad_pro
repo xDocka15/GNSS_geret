@@ -626,8 +626,6 @@
       "/Display/CCL123": "rgb(255, 155, 156)",
       "/Display/DPX": "rgb(255, 155, 156)",
       "/Display/L123": "rgb(105, 109, 255)",
-      "/Display/SCL_5V": "rgb(218, 3, 207)",
-      "/Display/SDA_5V": "rgb(255, 2, 238)",
       "/Display/a": "rgb(255, 155, 156)",
       "/Display/aAL1": "rgb(255, 155, 156)",
       "/Display/aBL2": "rgb(255, 155, 156)",
@@ -643,18 +641,10 @@
       "/Display/e": "rgb(255, 155, 156)",
       "/Display/f": "rgb(255, 155, 156)",
       "/Display/g": "rgb(255, 155, 156)",
-      "/ESP/IO21{slash}SDA": "rgb(61, 0, 64)",
-      "/ESP/IO22{slash}SCL": "rgb(135, 0, 137)",
-      "/GNSS_RxD": "rgb(0, 255, 4)",
-      "/GNSS_TxD": "rgb(3, 163, 0)",
-      "/SCL_3V3": "rgb(117, 72, 165)",
-      "/SDA_3V3": "rgb(174, 102, 255)",
       "/VBATT": "rgb(254, 255, 0)",
       "/VUSB": "rgb(156, 88, 0)",
       "CLK": "rgb(151, 156, 156)",
       "DT": "rgb(151, 156, 156)",
-      "GNSS_RXD": "rgb(27, 255, 26)",
-      "GNSS_TXD": "rgb(27, 119, 16)",
       "Net-(AE401-A)": "rgb(182, 88, 6)",
       "Net-(C403-Pad2)": "rgb(100, 3, 81)",
       "Net-(D2-K)": "rgb(177, 172, 0)",
@@ -664,17 +654,9 @@
       "Net-(U3-MOSI)": "rgb(1, 149, 150)",
       "RGB_3V3": "rgb(1, 150, 141)",
       "RGB_5V": "rgb(0, 100, 94)",
-      "RXD": "rgb(45, 255, 23)",
-      "SCL": "rgb(255, 0, 248)",
-      "SCL_3V3": "rgb(255, 5, 207)",
-      "SCL_5V": "rgb(69, 2, 255)",
-      "SDA": "rgb(156, 0, 163)",
-      "SDA_3V3": "rgb(100, 3, 81)",
-      "SDA_5V": "rgb(39, 0, 100)",
       "SW": "rgb(151, 156, 156)",
       "SW_BATT": "rgb(255, 103, 0)",
       "SW_ESP": "rgb(182, 88, 6)",
-      "TXD": "rgb(30, 128, 20)",
       "VCC": "rgb(100, 95, 0)"
     },
     "netclass_assignments": {
@@ -1065,7 +1047,7 @@
         "uuid": "00526ddc-5304-4072-af1e-192a9e7e83da"
       }
     ],
-    "used_designators": "U8,U10,R21-22,#PWR178-185,#PWR434,C17-18,TP15",
+    "used_designators": "L1,#PWR168-177,#PWR186,#PWR618-619,C1,C5-6,C8,C13,C16,C19,R1,R13,R17-19,J1,U3",
     "variants": []
   },
   "sheets": [
@@ -1120,6 +1102,10 @@
     [
       "178df54f-147b-49c2-84f9-0e425a0af419",
       "MAGNETOMETER"
+    ],
+    [
+      "333ed4a4-ad33-4ca2-9870-757c765922b2",
+      "DCDC"
     ]
   ],
   "text_variables": {},
